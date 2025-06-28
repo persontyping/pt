@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-     "dev": "nodemon"
+    "dev": "nodemon"
   },
   "dependencies": {
+    "bootstrap": "^5.3.7",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "^4.21.2",

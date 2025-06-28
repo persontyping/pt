@@ -1,0 +1,22 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  .container-fluid
+    // Left side: Logo + Title
+    a.navbar-brand.d-flex.align-items-center(href="#")
+      // Logo placeholder: round, 40x40px, black background
+      div.round-logo.me-2
+      span Person Typing
+
+    // Toggle button for small screens
+    button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+      span.navbar-toggler-icon
+
+    // Right side: Links
+    #navbarSupportedContent.collapse.navbar-collapse.justify-content-end
+      ul.navbar-nav.mb-2.mb-lg-0
+        li.nav-item
+          a.nav-link.active(href="#") Home
+        li.nav-item
+          a.nav-link(href="#") Features
+        li.nav-item
+          a.nav-link(href="#") Pricing
+        li.nav-item.dropdown
