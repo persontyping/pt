@@ -1,22 +1,45 @@
-nav.navbar.navbar-expand-lg.navbar-light.bg-light
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
   .container-fluid
     // Left side: Logo + Title
     a.navbar-brand.d-flex.align-items-center(href="#")
-      // Logo placeholder: round, 40x40px, black background
       div.round-logo.me-2
       span Person Typing
 
     // Toggle button for small screens
-    button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+    button.navbar-toggler(
+      type="button", 
+      data-bs-toggle="collapse", 
+      data-bs-target="#navbarSupportedContent", 
+      aria-controls="navbarSupportedContent", 
+      aria-expanded="false", 
+      aria-label="Toggle navigation"
+    )
       span.navbar-toggler-icon
 
     // Right side: Links
     #navbarSupportedContent.collapse.navbar-collapse.justify-content-end
       ul.navbar-nav.mb-2.mb-lg-0
         li.nav-item
-          a.nav-link.active(href="#") Home
+          a.nav-link.active(href="/") Home
         li.nav-item
-          a.nav-link(href="#") Features
+          a.nav-link(href="/blog") Blog
         li.nav-item
-          a.nav-link(href="#") Pricing
+          a.nav-link(href="portfolio") Portfolio
+        // Dropdown item
         li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(
+            href="#", 
+            id="navbarDropdown", 
+            role="button", 
+            data-bs-toggle="dropdown", 
+            aria-expanded="false"
+          ) More
+          ul.dropdown-menu(aria-labelledby="navbarDropdown")
+            li
+              a.dropdown-item(href="#") About
+            li
+              a.dropdown-item(href="#") Contact
+            li
+              hr.dropdown-divider
+            li
+              a.dropdown-item(href="#") Log out
