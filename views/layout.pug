@@ -3,6 +3,8 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    include partials/top-nav
-    block content
+    body(data-bs-theme="dark")
+      include partials/top-nav
+      .container.py-5.text-light
+      h1 Dark Themed Bootstrap Page
+      block content
