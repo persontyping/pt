@@ -1,14 +1,10 @@
-const express = require('express');
-const router = express.Router();
+var express = require('express');
+var router = express.Router();
 
-// This responds to /blog/
-router.get('/', (req, res) => {
-  res.send('Blog home page');
-});
-
-// Example additional route: /blog/post
-router.get('/post', (req, res) => {
-  res.send('Blog post');
+/* GET blog page. */
+router.get('/', function(req, res, next) {
+  res.render('blog', { title: 'Blog' });
 });
 
 module.exports = router;
+
