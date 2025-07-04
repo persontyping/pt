@@ -39,6 +39,7 @@ button.navbar-toggler.d-lg-none {
   button.navbar-toggler.d-lg-none {
     position: static !important;
     padding: unset !important;
+    font-size: 18px;
   }
 
   #navbarSupportedContent.collapse {
@@ -56,4 +57,10 @@ button.navbar-toggler.d-lg-none {
     transition: none !important;
     height: auto !important;
   }
+}
+
+#navbarSupportedContent > ul > li.nav-item{
+    border: 1px solid white;
+    text-align: right;
+    padding-right: 7px;
 }
