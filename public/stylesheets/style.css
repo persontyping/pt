@@ -1,1 +1,59 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+button.navbar-toggler.d-lg-none {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1050;
+  padding: 0.25rem 0.75rem;
+}
+
+/* Fixed overlay menu on mobile */
+#navbarSupportedContent.collapse {
+  position: fixed;
+  top: 3.5rem;    /* right below hamburger */
+  right: 1rem;
+  width: 90vw;
+  max-width: 300px;
+  z-index: 1040;
+
+  background-color: #212529;
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+  /* prevent layout shifts */
+  height: auto !important; /* let height be automatic */
+  overflow-y: auto;
+  max-height: 70vh;
+
+  /* DISABLE Bootstrap height transition */
+  transition: none !important;
+}
+
+/* Hide the menu completely when collapsed */
+#navbarSupportedContent:not(.show) {
+  display: none !important; /* hide completely to avoid any space */
+}
+
+@media (min-width: 992px) {
+  button.navbar-toggler.d-lg-none {
+    position: static !important;
+    padding: unset !important;
+  }
+
+  #navbarSupportedContent.collapse {
+    position: static !important;
+    top: unset !important;
+    right: unset !important;
+    width: auto !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    display: flex !important; /* show desktop menu */
+    transition: none !important;
+    height: auto !important;
+  }
+}
