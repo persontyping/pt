@@ -1,5 +1,10 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
 
+/* Global */
+body {
+  padding: 0 3em 0 3em;
+}
+
 button.navbar-toggler.d-lg-none {
   position: fixed;
   top: 1rem;
@@ -23,7 +28,7 @@ button.navbar-toggler.d-lg-none {
 
   /* prevent layout shifts */
   height: auto !important; /* let height be automatic */
-  overflow-y: auto;
+  overflow-y:
   max-height: 70vh;
 
   /* DISABLE Bootstrap height transition */

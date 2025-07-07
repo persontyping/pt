@@ -1,0 +1,13 @@
+//- card.pug
+//- Usage: include card.pug and pass in locals: title, text, imageUrl, buttonUrl, buttonText
+
+div.card(style="width: 18rem;")
+  if imageUrl
+    img.card-img-top(src=imageUrl, alt=title)
+  div.card-body
+    if title
+      h5.card-title= title
+    if text
+      p.card-text= text
+    if buttonUrl && buttonText
+      a.btn.btn-primary(href=buttonUrl)= buttonText
