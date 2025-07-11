@@ -73,3 +73,7 @@ button.navbar-toggler.d-lg-none {
 .container.gallery {
   border: 1px white solid;
 }
+
+.row.gallery {
+  border: 1px green solid;
+}
