@@ -69,3 +69,7 @@ button.navbar-toggler.d-lg-none {
     text-align: right;
     padding-right: 7px;
 }
+
+.container.gallery {
+  border: 1px white solid;
+}
