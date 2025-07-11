@@ -1,8 +1,13 @@
 extends layout
 block content
   article
+    h1 !{post.title} 
     if post.date
-      small.text-muted Published on #{post.date}
-    p !{post.content}  // this renders raw HTML (see markdown section below)
+      small.text-muted Published on #{post.date} 
+    p !{post.content}  
+    if post.imageUrl
+      img(src=post.imageUrl, alt=title)
+    else
+      img(src="https://imageslot.com/v1/1080x1080?bg=ffffffa&fg=333333&shadow=23272f&text=%5BIMAGE%5D&filetype=png", alt=title)
     hr
     a(href="/blog") ← Back to blog
