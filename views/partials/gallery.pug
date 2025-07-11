@@ -1,5 +1,6 @@
-//- Gallery rows of cards evenly spaced centred
+include card.pug
 
 .container.gallery
-    .row.gallery
-        include card
+  .row.gallery.justify-content-center.g-3
+    each cardData in demoCards
+      +card(cardData.title, cardData.text, cardData.imageUrl, cardData.buttonUrl, cardData.buttonText)
