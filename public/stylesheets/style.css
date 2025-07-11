@@ -81,3 +81,21 @@ button.navbar-toggler.d-lg-none {
 .row.gallery {
   border: 1px green solid;
 }
+
+.border-purple {
+  border: solid 1px purple;
+}
+
+.border-yellow {
+  border: solid 1px yellow;
+}
+
+.border-red {
+  border: solid 1px red;
+}
+
+.border-aqua {
+  border: solid 1px aqua;
+}
+
+
