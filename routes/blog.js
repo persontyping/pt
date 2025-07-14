@@ -1,38 +1,30 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const Blog = require('../models/Blog');
 
-// Sample posts object (could later come from a DB or JSON file)
-const posts = [
-
-  {
-    postId: '1',
-    title: 'The Big Mistake',
-    excerpt: 'A post about the time I felt like I had it all',
-    imageUrl: 'https://imageslot.com/v1/1080x1080?bg=ff61ad&fg=ffffff&shadow=23272f&text=%5BIMAGE%5D&filetype=png',
-    content: 'Here is some _italic_ text and a [link](https://persontyping.xyz).',
-    date: '2024-06-25'
-  },
-    {
-    postId: '2',
-    title: 'All the Pizza in the World',
-    excerpt: 'A post about the time I felt like I had it all',
-    imageUrl: 'https://imageslot.com/v1/1080x1080?bg=fcff61&fg=ffffff&shadow=23272f&text=%5BIMAGE%5D&filetype=png',
-    content: 'Here is some _italic_ text and a [link](https://persontyping.xyz).',
-    date: '2024-06-25'
+// List all blog posts
+router.get('/', async (req, res) => {
+  try {
+    const posts = await Blog.find().sort({ createdAt: -1 });
+    console.log('Retrieved posts:', posts);
+    res.render('blog', { title: 'The Blog About Nothing', posts });
+  } catch (err) {
+    console.error('Error fetching posts:', err);
+    res.status(500).send('Server error while fetching blog posts.');
   }
-];
-
-// Blog home page (list)
-router.get('/', (req, res) => {
-  res.render('blog', { title: 'The 999 News', posts: Object.values(posts) });
 });
 
-// GET single blog post
-router.get('/:postId', (req, res, next) => {
-  const post = posts.find(p => p.postId === req.params.postId);
-  if (!post) return next(); // 404 fallback
+// GET single blog post by ID
+router.get('/:_id', async (req, res, next) => {
+  try {
+    const post = await Blog.findById(req.params._id);
+    if (!post) return next(); // Pass to 404 handler if not found
 
-  res.render('post', { post });
+    res.render('post', { post });
+  } catch (err) {
+    console.error('Error fetching single post:', err);
+    next(err); // Could be an invalid ObjectId, etc.
+  }
 });
 
 module.exports = router;

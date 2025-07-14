@@ -7,15 +7,15 @@ block content
         - var title = post.title
         - var text = post.excerpt || ''
         - var imageUrl = post.imageUrl || 'https://imageslot.com/v1/1080x1080?bg=551759&fg=ffffff&shadow=23272f&text=%5BIMAGE%5D&filetype=png'
-        - var buttonUrl = '/blog/' + post.postId
+        - var buttonUrl = '/blog/' + post._id 
         - var buttonText = 'Read More'
-        - var date = post.date || ''
+        - var createdAt = post.createdAt || ''
         tr
           td(style="vertical-align: middle;")
             img(src=imageUrl, alt=title, class="img-fluid" style="width: 100px; height: auto;")
           td(style="vertical-align: middle; text-align: left;")
             h5.mb-1= title
-            small.text-muted.mb-2 Published on #{date}
+            small.text-muted.mb-2 Published on #{createdAt}
             p.mb-2= text
           td(style="vertical-align: middle; text-align: left;")
             a.btn.btn-primary(href=buttonUrl)= buttonText
