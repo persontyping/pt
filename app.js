@@ -1,4 +1,5 @@
 require('./db');
+require('dotenv').config();
 
 var createError = require('http-errors');
 var express = require('express');
@@ -11,6 +12,7 @@ var usersRouter = require('./routes/users');
 var blogRouter = require('./routes/blog');
 var portfolioRouter = require('./routes/portfolio');
 var photosRouter = require('./routes/photos');
+var contactRouter = require('./routes/contact');
 var webhookRouter = require('./routes/webhook');
 
 
@@ -19,7 +21,6 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
-console.log('Views directory:', path.join(__dirname, 'views')); // log only
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -37,6 +38,7 @@ app.use('/portfolio', portfolioRouter);
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/photos', photosRouter);
+app.use('/contact', contactRouter);
 app.use('/webhook', webhookRouter);
 
 
