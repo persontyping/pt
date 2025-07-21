@@ -90,6 +90,10 @@ button.navbar-toggler.d-lg-none {
   border: solid 1px yellow;
 }
 
+.border-light-yellow {
+  border: solid 1px light-yellow;
+}
+
 .border-red {
   border: solid 1px red;
 }
@@ -146,6 +150,14 @@ button.navbar-toggler.d-lg-none {
   }
 }
 
+
+/* Logo */
+
+img.clippy{}
+
+img.message{
+  margin-top:-20px;
+}
 
 
 
