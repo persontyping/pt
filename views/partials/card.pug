@@ -3,7 +3,7 @@ mixin card(title, text, imageUrl, buttonUrl, buttonText)
     if imageUrl
       img.card-img-top(src=imageUrl, alt=title)
     else
-      img.card-img-top(src="https://imageslot.com/v1/1080x1080?bg=ffffffa&fg=333333&shadow=23272f&text=%5BIMAGE%5D&filetype=png", alt=title)
+      img.card-img-top(src="/img/camera.svg", alt=title)
     .card-body
       if title
         h5.card-title= title
