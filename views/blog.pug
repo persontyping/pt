@@ -6,7 +6,7 @@ block content
       each post in posts
         - var title = post.title
         - var text = post.excerpt || ''
-        - var imageUrl = post.imageUrl || 'https://imageslot.com/v1/1080x1080?bg=551759&fg=ffffff&shadow=23272f&text=%5BIMAGE%5D&filetype=png'
+        - var imageUrl = post.imageUrl ? '/img/' + post.imageUrl : '/img/mountain.svg'
         - var buttonUrl = '/blog/' + post._id 
         - var buttonText = 'Read More'
         - var createdAt = post.createdAt || ''
