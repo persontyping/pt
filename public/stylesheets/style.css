@@ -8,6 +8,17 @@
   size: 3em;
 }
 
+
+.nunito-sans-pt {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
 button.navbar-toggler.d-lg-none {
   position: fixed;
   top: 1rem;
@@ -96,6 +107,14 @@ button.navbar-toggler.d-lg-none {
 
 .border-red {
   border: solid 1px red;
+}
+
+.border-blue {
+  border: solid 1px blue;
+}
+
+.border-grey {
+  border: solid 1px grey;
 }
 
 .border-aqua {
