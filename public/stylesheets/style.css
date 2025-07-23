@@ -117,6 +117,15 @@ button.navbar-toggler.d-lg-none {
   border: solid 1px grey;
 }
 
+.border-green {
+  border: solid 1px green;
+}
+
+.border-lime {
+  border: solid 1px lime;
+}
+
+
 .border-aqua {
   border: solid 1px aqua;
 }

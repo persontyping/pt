@@ -12,6 +12,7 @@ var usersRouter = require('./routes/users');
 var blogRouter = require('./routes/blog');
 var portfolioRouter = require('./routes/portfolio');
 var photosRouter = require('./routes/photos');
+var resourcesRouter = require('./routes/resources');
 var contactRouter = require('./routes/contact');
 var webhookRouter = require('./routes/webhook');
 
@@ -38,6 +39,7 @@ app.use('/portfolio', portfolioRouter);
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/photos', photosRouter);
+app.use('/resources', resourcesRouter);
 app.use('/contact', contactRouter);
 app.use('/webhook', webhookRouter);
 
