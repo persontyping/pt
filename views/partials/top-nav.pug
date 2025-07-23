@@ -9,27 +9,28 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.py-2.position-relative
 
     // Right side container for toggler + menu
     .container.d-flex.align-items-center.position-relative.border-yellow
-      // Hamburger button (mobile only)
-      button.navbar-toggler.d-lg-none.me-2(
-        type="button",
-        data-bs-toggle="collapse",
-        data-bs-target="#navbarSupportedContent",
-        aria-controls="navbarSupportedContent",
-        aria-expanded="false",
-        aria-label="Toggle navigation"
-      )
-        span.navbar-toggler-icon
+      div.ms-auto
+        // Hamburger button (mobile only)
+        button.navbar-toggler.d-lg-none.me-2(
+          type="button",
+          data-bs-toggle="collapse",
+          data-bs-target="#navbarSupportedContent",
+          aria-controls="navbarSupportedContent",
+          aria-expanded="false",
+          aria-label="Toggle navigation"
+        )
+          span.navbar-toggler-icon
 
-      // Collapsible menu (desktop: right aligned; mobile: below hamburger)
-      #navbarSupportedContent.collapse.navbar-collapse.bg-dark.rounded.p-3.p-lg-0.mt-2.mt-lg-0.z-3(
-        class="d-lg-flex align-items-lg-center"
-      )
-        ul.navbar-nav.mb-2.mb-lg-0.text-center.text-lg-start.gap-2.gap-lg-3.ms-lg-auto.fs-6
-          li.nav-item
-            a.nav-link.active(href="/") Home
-          li.nav-item
-            a.nav-link(href="/blog") Blog
-          li.nav-item
-            a.nav-link(href="/photos") Media
-          li.nav-item
-            a.nav-link(href="/contact") Contact
+        // Collapsible menu (desktop: right aligned; mobile: below hamburger)
+        #navbarSupportedContent.collapse.navbar-collapse.bg-dark.rounded.p-3.p-lg-0.mt-2.mt-lg-0.z-3(
+          class="d-lg-flex align-items-lg-center"
+        )
+          ul.navbar-nav.mb-2.mb-lg-0.text-center.text-lg-start.gap-2.gap-lg-3.ms-lg-auto.fs-6
+            li.nav-item
+              a.nav-link.active(href="/") Home
+            li.nav-item
+              a.nav-link(href="/blog") Blog
+            li.nav-item
+              a.nav-link(href="/photos") Media
+            li.nav-item
+              a.nav-link(href="/contact") Contact
