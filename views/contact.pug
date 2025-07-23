@@ -2,8 +2,8 @@ extends layout
 
 block content
  
-    .row.border-yellow.p-5
-      .col.border-purple.col-8
+    .row.border-yellow.p-0.p-md-5
+      .col.border-purple.col-12.col-md-8
         form(action='/contact', method='POST')
           .mb-3
             label.form-label(for='name') Name
@@ -15,5 +15,5 @@ block content
             label.form-label(for='message') Message
             textarea.form-control(name='message', rows='5', required)
           button.btn.btn-primary(type='submit') Send
-      .col.border-red.d-flex.justify-content-center.align-items-center.col-4
+      .col.border-red.d-flex.justify-content-center.align-items-center.col-12.col-md-4
         img(src="/img/contact-us.png", alt=title, style="width: 300px; height: 300px; object-fit: cover;")
