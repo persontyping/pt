@@ -73,11 +73,11 @@ button.navbar-toggler.d-lg-none {
     padding-right: 7px;
 }
 
-.container-pink {
+.border-pink {
   border: 1px pink solid;
 }
 
-.container-orange {
+.border-orange {
   border: 1px orange solid;
 }
 
