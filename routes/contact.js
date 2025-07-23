@@ -32,7 +32,7 @@ router.post('/', async (req, res) => {
 
   try {
     await transporter.sendMail(mailOptions);
-    res.send('Thanks for contacting us!');
+    res.render('response', { message: 'Thanks for contacting us!' });
   } catch (err) {
     console.error('Email failed:', err);
     res.status(500).send('Something went wrong. Please try again later.');
