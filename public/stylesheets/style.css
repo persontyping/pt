@@ -180,6 +180,35 @@ button.navbar-toggler.d-lg-none {
   max-width: 300px;
 }
 
+/* Cards */
 
+.card-img-top {
+  border: 1px solid #322f2fff;
+}
+
+.bg-tan {
+  background-color: #a6905aff;
+}
+
+/* Buttons */
+
+.btn-pink {
+  background-color: #e83e8c;
+  color: #fff;
+}
+.btn-pink:hover {
+  background-color: #d63384;
+}
+
+.btn-pink-outline {
+  border: 2px solid #e83e8c;
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-pink-outline:hover {
+  background-color: #e83e8c;
+  color: white;
+}
 
 

@@ -1,13 +1,17 @@
 mixin card(title, text, imageUrl, buttonUrl, buttonText)
-  .card(style="width: 20rem;")
+  .card.mb-3.mt-3.pt-3.d-flex.align-items-center.justify-content-center.bg-tan(style="width: 22rem;")
     if imageUrl
       img.card-img-top(src=imageUrl, alt=title)
     else
-      img.card-img-top(src="/img/meme/seniors-cash-labor.png", alt=title, style="width: 300px; height: 300px; object-fit: contain;")
-    .card-body
+      img.card-img-top(
+        src="/img/meme/seniors-cash-labor.png",
+        alt=title,
+        style="width: 300px; height: 300px; object-fit: contain;"
+      )
+    .card-body.text-center
       if title
-        h5.card-title= title
+        h5.text-dark.card-title= title
       if text
-        p.card-text= text
+        p.text-dark.card-text= text
       if buttonUrl && buttonText
-        a.btn.btn-primary(href=buttonUrl)= buttonText
+        a.btn.btn-pink-outline(href=buttonUrl)= buttonText

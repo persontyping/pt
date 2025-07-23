@@ -1,7 +1,7 @@
 include card.pug
 
 .container.gallery
-  .row.gallery.border-yellow
+  .row.gallery
     each cardData in demoCards
-      .col.gallery.border-aqua.d-flex.justify-content-center
+      .col.gallery.d-flex.justify-content-center
         +card(cardData.title, cardData.text, cardData.imageUrl, cardData.buttonUrl, cardData.buttonText)

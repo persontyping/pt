@@ -1,5 +1,5 @@
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.py-2.position-relative
-  .container-fluid.d-flex.justify-content-between.align-items-center.border-aqua
+  .container-fluid.d-flex.justify-content-between.align-items-center
     // Brand always on the left
     a.navbar-brand.d-flex.align-items-center.mb-2.mb-lg-0(href="#").fs-4
       div.round-logo.me-2.d-flex.justify-content-center.align-items-center(style="padding-left:20px; width: 40px; height: 40px; border-radius: 50%;")
@@ -8,7 +8,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.py-2.position-relative
       // span P.R.P
 
     // Right side container for toggler + menu
-    .container.d-flex.align-items-center.position-relative.border-yellow
+    .container.d-flex.align-items-center.position-relative
       div.ms-auto
         // Hamburger button (mobile only)
         button.navbar-toggler.d-lg-none.me-2(
@@ -22,7 +22,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.py-2.position-relative
           span.navbar-toggler-icon.d-lg-none
 
         // Collapsible menu (desktop: right aligned; mobile: below hamburger)
-        #navbarSupportedContent.collapse.navbar-collapse.bg-dark.rounded.p-3.p-lg-0.mt-2.mt-lg-0.z-3(
+        #navbarSupportedContent.collapse.navbar-collapse.p-3.p-lg-0.mt-2.mt-lg-0.z-3(
           class="d-lg-flex align-items-lg-center"
         )
           ul.navbar-nav.mb-2.mb-lg-0.text-center.text-lg-start.gap-2.gap-lg-3.ms-lg-auto.fs-6
