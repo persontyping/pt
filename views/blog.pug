@@ -6,7 +6,7 @@ block content
       each post in posts
         - var title = post.title
         - var text = post.excerpt || ''
-        - var imageUrl = post.imageUrl ? '/img/' + post.imageUrl : '/img/mountain.svg'
+        - var imageUrl = post.imageUrl ? '/img/' + post.imageUrl : '/img/call-me.svg'
         - var buttonUrl = '/blog/' + post._id 
         - var buttonText = 'Read More'
         - var createdAt = post.createdAt || ''
@@ -18,4 +18,4 @@ block content
             small.text-muted.mb-2 Published on #{createdAt}
             p.mb-2= text
           td(style="vertical-align: middle; text-align: left;")
-            a.btn.btn-primary(href=buttonUrl)= buttonText
+            a.btn.btn-pink-outline(href=buttonUrl)= buttonText
