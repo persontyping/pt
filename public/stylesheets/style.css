@@ -65,7 +65,7 @@ button.navbar-toggler.d-lg-none {
 }
 
 #navbarSupportedContent > ul > li.nav-item{
-    border: 1px solid white;
+    border: 1px solid green;
     text-align: right;
     padding-right: 7px;
 }
@@ -74,13 +74,6 @@ button.navbar-toggler.d-lg-none {
   border: 1px pink solid;
 }
 
-.container.gallery {
-  border: 1px white solid;
-}
-
-.row.gallery {
-  border: 1px green solid;
-}
 
 .border-purple {
   border: solid 1px purple;
@@ -151,12 +144,14 @@ button.navbar-toggler.d-lg-none {
 }
 
 
-/* Logo */
+/* Custom Width */
 
-img.clippy{}
+.max-width-500 {
+  max-width: 500px;
+}
 
-img.message{
-  margin-top:-20px;
+.max-width-300 {
+  max-width: 300px;
 }
 
 
