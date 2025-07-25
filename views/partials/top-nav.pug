@@ -1,13 +1,7 @@
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
-    // Brand on the left
-    a.navbar-brand.d-flex.align-items-center.mb-lg-0(href="#").fs-4
-      div.round-logo.me-2.d-flex.justify-content-center.align-items-center(
-        style="padding-left:20px; width: 40px; height: 40px; border-radius: 50%;"
-      )
-        img.clippy(src="/img/clippy.svg" alt="Logo" width="35" height="35")
 
     // Toggler button (mobile only)
-    button.navbar-toggler(
+    button.navbar-toggler.mx-1(
       type="button",
       data-bs-toggle="collapse",
       data-bs-target="#navbarSupportedContent",
@@ -19,15 +13,15 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
 
     // Menu container
     #navbarSupportedContent.collapse.navbar-collapse
-      ul.navbar-nav.ms-auto.flex-lg-rowite.flex-nowrap.text-nowrap
-        li.nav-item
+      ul.navbar-nav.ms-auto.flex-md-row.flex-nowrap.text-nowrap.border-pink
+        li.nav-item.border-purple.mx-1.px-1
           a.nav-link.active(href="/") Home
-        li.nav-item
+        li.nav-item.border-blue.mx-1.px-1
           a.nav-link(href="/blog") Blog
-        li.nav-item
+        li.nav-item.border-pink.mx-1.px-1
           a.nav-link(href="/photos") Media
-        li.nav-item
+        li.nav-item.border-orange.mx-1.px-1
           a.nav-link(href="/resources") Resources
-        li.nav-item
+        li.nav-item.border-yellow.mx-1.px-1
           a.nav-link(href="/contact") Contact
 

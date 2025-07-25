@@ -1,5 +1,18 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
 
+/* Custom Fonts */
+
+.fs-3rem{
+  font-size: 3.5rem;
+}
+
+.fc-pink{
+  color: #e83e8c;
+}
+.fc-tape{
+  color: #fff;
+  background: #000;
+}
 /* Google Fonts */
 .mynerve-regular {
   font-family: "Mynerve", cursive;
@@ -25,15 +38,22 @@ button.navbar-toggler.d-lg-none {
   position: fixed;
   top: 1rem;
   right: 1rem;
+  left: 1rem;
   z-index: 1050;
   padding: 0.25rem 0.75rem;
+}
+
+.navbar-toggler-icon {
+  width: 2em;
+  height: 2em;
+
 }
 
 /* Fixed overlay menu on mobile */
 #navbarSupportedContent.collapse {
   position: fixed;
   top: 3.5rem;    /* right below hamburger */
-  right: 1rem;
+  //right: 1rem;
   width: 90vw;
   max-width: 300px;
   z-index: 1040;
@@ -89,11 +109,11 @@ button.navbar-toggler.d-lg-none {
 }
 
 .border-pink {
-  border: 1px pink solid;
+  border: 1px #e83e8c solid;
 }
 
 .border-orange {
-  border: 1px orange solid;
+  border: 1px #f55f0eff solid;
 }
 
 

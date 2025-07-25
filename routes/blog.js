@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
   try {
     const posts = await Blog.find().sort({ createdAt: -1 });
     console.log('Retrieved posts:', posts);
-    res.render('blog', { title: 'The Blog About Nothing', posts });
+    res.render('blog', { title: 'Write Ups', posts });
   } catch (err) {
     console.error('Error fetching posts:', err);
     res.status(500).send('Server error while fetching blog posts.');
