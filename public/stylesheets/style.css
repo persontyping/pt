@@ -19,6 +19,8 @@
     "YTLC" 500;
 }
 
+/* Nav Bar */
+
 button.navbar-toggler.d-lg-none {
   position: fixed;
   top: 1rem;
@@ -42,7 +44,8 @@ button.navbar-toggler.d-lg-none {
 
   /* prevent layout shifts */
   height: auto !important; /* let height be automatic */
-  overflow-y:
+  overflow-y: hidden;
+  overflow-x: hidden;
   max-height: 70vh;
 
   /* DISABLE Bootstrap height transition */
@@ -56,8 +59,6 @@ button.navbar-toggler.d-lg-none {
 
 @media (min-width: 992px) {
   button.navbar-toggler.d-lg-none {
-    position: static !important;
-    padding: unset !important;
     font-size: 18px;
   }
 
@@ -79,10 +80,9 @@ button.navbar-toggler.d-lg-none {
 }
 
 #navbarSupportedContent > ul > li.nav-item{
-    border: 1px solid green;
-    text-align: right;
-    padding-right: 7px;
 }
+
+/* Custom Colours */
 
 .border-pink {
   border: 1px pink solid;

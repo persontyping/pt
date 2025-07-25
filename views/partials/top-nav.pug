@@ -1,39 +1,33 @@
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.py-2.position-relative
-  .container-fluid.d-flex.justify-content-between.align-items-center
-    // Brand always on the left
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.border-blue
+    // Brand on the left
     a.navbar-brand.d-flex.align-items-center.mb-2.mb-lg-0(href="#").fs-4
-      div.round-logo.me-2.d-flex.justify-content-center.align-items-center(style="padding-left:20px; width: 40px; height: 40px; border-radius: 50%;")
-        img.clippy(src="/img/clippy.svg" alt="Logo" width="45" height="45" )
-      //img.message(src="/img/message.svg" alt="Logo" width="60" height="45" )
-      // span P.R.P
+      div.round-logo.me-2.d-flex.justify-content-center.align-items-center(
+        style="padding-left:20px; width: 40px; height: 40px; border-radius: 50%;"
+      )
+        img.clippy(src="/img/clippy.svg" alt="Logo" width="45" height="45")
 
-    // Right side container for toggler + menu
-    .container.d-flex.align-items-center.position-relative
-      div.ms-auto
-        // Hamburger button (mobile only)
-        button.navbar-toggler.d-lg-none.me-2(
-          type="button",
-          data-bs-toggle="collapse",
-          data-bs-target="#navbarSupportedContent",
-          aria-controls="navbarSupportedContent",
-          aria-expanded="false",
-          aria-label="Toggle navigation"
-        )
-          span.navbar-toggler-icon.d-lg-none
+    // Toggler button (mobile only)
+    button.navbar-toggler(
+      type="button",
+      data-bs-toggle="collapse",
+      data-bs-target="#navbarSupportedContent",
+      aria-controls="navbarSupportedContent",
+      aria-expanded="false",
+      aria-label="Toggle navigation"
+    )
+      span.navbar-toggler-icon
 
-        // Collapsible menu (desktop: right aligned; mobile: below hamburger)
-        #navbarSupportedContent.collapse.navbar-collapse.p-3.p-lg-0.mt-2.mt-lg-0.z-3(
-          class="d-lg-flex align-items-lg-center"
-        )
-        ul.navbar-nav.mb-2.mb-lg-0.text-center.text-lg-start.gap-2.gap-lg-3.ms-lg-auto.fs-6
-          li.nav-item.border-pink
-            a.nav-link.w-100.active(href="/") Home
-          li.nav-item.border-blue
-            a.nav-link.w-100(href="/blog") Blog
-          li.nav-item.border-lime
-            a.nav-link.w-100(href="/photos") Media
-          li.nav-item.border-purple
-            a.nav-link.w-100(href="/resources") Resources for Activists
-          li.nav-item.border-green
-            a.nav-link.w-100(href="/contact") Contact
+    // Menu container
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul.navbar-nav.ms-auto.flex-lg-row.flex-nowrap.text-nowrap.border-red
+        li.nav-item
+          a.nav-link.active(href="/") Home
+        li.nav-item
+          a.nav-link(href="/blog") Blog
+        li.nav-item
+          a.nav-link(href="/photos") Media
+        li.nav-item
+          a.nav-link(href="/resources") Resources
+        li.nav-item
+          a.nav-link(href="/contact") Contact
 
