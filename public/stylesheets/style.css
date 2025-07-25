@@ -7,8 +7,6 @@
   font-style: normal;
   size: 3em;
 }
-
-
 .nunito-sans-pt {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -19,8 +17,10 @@
     "YTLC" 500;
 }
 
-/* Nav Bar */
+/* Custom Break Points */
 
+
+/* Nav Bar */
 button.navbar-toggler.d-lg-none {
   position: fixed;
   top: 1rem;
@@ -83,6 +83,10 @@ button.navbar-toggler.d-lg-none {
 }
 
 /* Custom Colours */
+
+.border-charcoal {
+  border: 1px #3d3d3d solid;
+}
 
 .border-pink {
   border: 1px pink solid;
