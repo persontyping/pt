@@ -52,10 +52,10 @@ button.navbar-toggler.d-lg-none {
 /* Fixed overlay menu on mobile */
 #navbarSupportedContent.collapse {
   position: fixed;
-  top: 3.5rem;    /* right below hamburger */
-  //right: 1rem;
-  width: 90vw;
-  max-width: 300px;
+  top: 4rem;    /* right below hamburger */
+  // right: 1rem; Colapse menu on right
+  //width: 90vw;
+  //max-width: 300px;
   z-index: 1040;
 
   background-color: #212529;
