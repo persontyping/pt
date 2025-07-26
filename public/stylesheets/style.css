@@ -34,7 +34,7 @@
 
 
 /* Nav Bar */
-button.navbar-toggler.d-lg-none {
+button.navbar-toggler.d-md-none {
   position: fixed;
   top: 1rem;
   right: 1rem;
@@ -44,8 +44,8 @@ button.navbar-toggler.d-lg-none {
 }
 
 .navbar-toggler-icon {
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
 
 }
 
@@ -53,8 +53,8 @@ button.navbar-toggler.d-lg-none {
 #navbarSupportedContent.collapse {
   position: fixed;
   top: 4rem;    /* right below hamburger */
-  // right: 1rem; Colapse menu on right
-  //width: 90vw;
+  right: 1rem; Colapse menu on right
+  width: 90vw;
   //max-width: 300px;
   z-index: 1040;
 
@@ -72,24 +72,21 @@ button.navbar-toggler.d-lg-none {
   transition: none !important;
 }
 
-/* Hide the menu completely when collapsed */
-#navbarSupportedContent:not(.show) {
-  display: none !important; /* hide completely to avoid any space */
+/* Hide only on mobile */
+@media (max-width: 767.98px) {
+  #navbarSupportedContent:not(.show) {
+    display: none !important;
+  }
 }
 
-@media (min-width: 992px) {
-  button.navbar-toggler.d-lg-none {
-    font-size: 18px;
-  }
 
+@media (min-width: 768px) {
   #navbarSupportedContent.collapse {
     position: static !important;
     top: unset !important;
     right: unset !important;
     width: auto !important;
     border-radius: 0 !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
     padding: 0 !important;
     max-height: none !important;
     overflow: visible !important;
@@ -99,8 +96,7 @@ button.navbar-toggler.d-lg-none {
   }
 }
 
-#navbarSupportedContent > ul > li.nav-item{
-}
+
 
 /* Custom Colours */
 
