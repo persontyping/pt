@@ -2,13 +2,28 @@ extends layout
 
 block content
   article
-    h1 !{post.title} 
-    if post.date
-      small.text-muted Published on #{post.date} 
-    p !{post.content}  
+    h1= post.title
+
+    if post.createdAt
+      small.text-muted Published on #{post.createdAt}
+
+    p !{post.body}
+
     if post.imageUrl
-      img(src=post.imageUrl, alt=title, class="" style="max-width: 700px; max-height: 300px;")
+      img(
+        src='/img/' + post.imageUrl,
+        alt=post.title || 'Post image',
+        class="img-fluid",
+        style="max-width: 700px; max-height: 300px;"
+      )
     else
-      img(src="https://imageslot.com/v1/1080x1080?bg=ffffffa&fg=333333&shadow=23272f&text=%5BIMAGE%5D&filetype=png", alt=title, class="d-block mx-auto" style="max-width: 300px; height: auto;")
+      img(
+        src="/img/call-me.svg",
+        alt=post.title || 'Placeholder image',
+        class="d-block mx-auto",
+        style="max-width: 300px; height: auto;"
+      )
+
     hr
+
     a(href="/blog") ← Back to blog
