@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
 
   ];
 
-  res.render('photos', { title: 'Media', demoCards });
+  res.render('photos', { title: 'TL;DR', demoCards });
 });
 
 module.exports = router;
