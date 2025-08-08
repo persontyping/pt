@@ -1,0 +1,44 @@
+//- views/partials/insta-card.pug
+
+//- Mixins (must come first)
+mixin card(title, text, imageUrl, buttonUrl)
+  .card.mb-3.mt-3.pt-3.d-flex.align-items-center.justify-content-center.bg-tan(style="width: 22rem;")
+    if imageUrl
+      img.card-img-top(src=imageUrl, alt=title)
+    else
+      img.card-img-top(
+        src="", alt=title,
+        style="width: 300px; height: 300px; object-fit: contain;"
+      )
+    .card-body.text-center
+      if title
+        h5.text-light.card-title= title
+      if text
+        p.text-light.card-text= text
+      if buttonUrl
+        a.btn.btn-pink-outline(href=buttonUrl target="_blank" rel="noopener") View on Instagram
+
+mixin instaCard(post)
+  - var title     = (post && post.caption)   || 'Instagram Post';
+  - var imageUrl  = (post && post.media_url) || '/img/call-me.svg';
+  - var buttonUrl = (post && post.permalink) || '';
+  - var textParts = [];
+  if post && post.hashtags && post.hashtags.length
+    - textParts.push('#' + post.hashtags.join(' #'));
+  if post && post.mentions && post.mentions.length
+    - textParts.push('Mentions: ' + post.mentions.join(', '));
+  if post && post.timestamp
+    - textParts.push('Posted: ' + new Date(post.timestamp).toLocaleString());
+  if post && typeof post.likes_count === 'number'
+    - textParts.push('Likes: ' + post.likes_count);
+  if post && typeof post.comments_count === 'number'
+    - textParts.push('Comments: ' + post.comments_count);
+  - var text = textParts.join(' | ');
+  +card(title, text, imageUrl, buttonUrl)
+
+//- Usage (after mixins are defined)
+.container.gallery
+  .row.gallery
+    each insta in instaCards
+      .col.gallery.d-flex.justify-content-center
+        +instaCard(insta)
