@@ -248,11 +248,11 @@ div.post-body li {
 /* Cards */
 
 .card-img-top {
-  border: 1px solid #322f2fff;
+  border: 1px solid #ebebebff;
 }
 
 .bg-tan {
-  background-color: #a6905aff;
+  background-color: transparent;
 }
 
 
