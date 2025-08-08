@@ -1,13 +1,15 @@
 extends layout
 
 block content
-  article
-    h1= post.title
+ .row.d-flex.justify-content-center.border-orange 
+  .col-md-9.text-start.px-2.py-5
+   article.post
+    h1.fs-3rem.text-center.text-md-start= post.title
 
     if post.createdAt
-      small.text-muted Published on #{post.createdAt}
+      div.small.text-muted.fs-6.border-pink.p-2.my-3 Published on #{post.createdAt}
 
-    p !{post.body}
+    div.post-body.nunito-sans-pt.fs-5.lh-md.p-4.border-blue !{post.body}
 
     if post.imageUrl
       img(
