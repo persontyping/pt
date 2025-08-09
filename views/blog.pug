@@ -9,7 +9,7 @@ block content
         - var imageUrl = post.imageUrl ? '/img/' + post.imageUrl : '/img/call-me.svg'
         - var buttonUrl = '/blog/' + post._id 
         - var buttonText = 'Read More'
-        - var createdAt = post.createdAt || ''
+        - var createdAt = post.createdAt ? new Date(post.createdAt).toLocaleString() : ''
         tr
           td(style="vertical-align: middle; text-align: left;")
             h5.mb-1.fc-tape= title

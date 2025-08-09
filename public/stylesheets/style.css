@@ -44,21 +44,20 @@ button.navbar-toggler.d-md-none {
   left: 1rem;
   z-index: 1050;
   padding: 0.25rem 0.75rem;
+
 }
+
 
 .navbar-toggler-icon {
   width: 1.5em;
   height: 1.5em;
-
 }
 
 /* Fixed overlay menu on mobile */
 #navbarSupportedContent.collapse {
-  position: fixed;
   top: 4rem;    /* right below hamburger */
   right: 1rem; Colapse menu on right
   width: 90vw;
-  //max-width: 300px;
   z-index: 1040;
 
   background-color: #212529;
