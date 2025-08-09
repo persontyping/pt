@@ -7,7 +7,7 @@ router.use(express.urlencoded({ extended: false }));
 
 // GET: Show the contact form
 router.get('/', function (req, res, next) {
-  res.render('contact', { title: "The People's Republic of Paperclips" });
+  res.render('contact', { title: "Contact" });
 });
 
 // POST: Handle form submission

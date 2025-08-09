@@ -1,43 +1,14 @@
 extends layout
 
 block content
-  // Top row of stars
-  .row.d-flex.justify-content-center.border-orange
-    each _ in [1,2,3,4,5,6,7,8]
-      .col-1.d-flex.align-items-center.justify-content-center.mynerve-regular(style="height: 80px;" class="h-md-200")
-        h1 *
-
-  // Center message
-  .row.d-flex.justify-content-center.border-pink
-    .col-2.d-flex.align-items-center.justify-content-center.mynerve-regular.border-green(style="height: 110px;" class="h-md-200")
-      h1 🏛️
-    .col-2.d-flex.align-items-center.justify-content-center.mynerve-regular.border-light-yellow(style="height: 110px;" class="h-md-200")
-     img(src="/img/meme/senators/wong-sticker.png", alt='Senator Penny Wong', style=" height: 3.1rem; object-fit: contain;")
-    .col-2.d-flex.align-items-center.justify-content-center.mynerve-regular.border-aqua(style="height: 110px;" class="h-md-200")
-      h1 📝
-    .col-2.d-flex.align-items-center.justify-content-center.mynerve-regular.border-light-yellow(style="height: 110px;" class="h-md-200")
-     img(src="/img/meme/dog-skeptic.png", alt='Senator Penny Wong', style=" height: 3.1rem; object-fit: contain;")
-    .col-2.d-flex.align-items-center.justify-content-center.mynerve-regular.border-light-yellow(style="height: 110px;" class="h-md-200")
-      h1 🏛️
-
-  // Bottom row of stars
-  .row.d-flex.justify-content-center.border-purple
-    each _ in [1,2,3,4,5,6,7,8]
-      .col-1.d-flex.align-items-center.justify-content-center.mynerve-regular(style="height: 70px;" class="h-md-200")
-        h1 *
-  
-  
-  // Text area cream with black writing
-  .row.d-flex.justify-content-center.border-orange 
-      .col-6.text-center.px-2.py-5.nunito-sans-pt
-        p.fs-3.lh-lg A mash-up of two ideas:#[br] 1. States that #[em claim] to govern in the interests of their people, and #[br]2. the “Paperclip Maximiser” - a thought experiment by philosopher Nick Bostrom that asks: What if Artificial Intelligence rose to power but maximising the production of paperclips over all else was it's political wiil? #[br] AKA, are the powers that be looking after our interests and are they actually being effective. #[br]The People's Republic of Paperclips is a nonpartisan — though unapologetically biased — thought dump by cats interested in the ethics, effectiveness, and accountability of governments, interest groups, and business.
-  .row.d-flex.justify-content-center.border-purple
-      .col-md-5.col-12.d-flex.align-items-center.justify-content-center.nunito-sans-pt.border-blue.m-0.m-md-5
-        p.fs-1.mynerve-regular.p-1 *
-        p.fs-5.p-4.text-center 
-        p.fs-1.mynerve-regular.p-1 * 
-      .col-md-5.d-flex.align-items-center.justify-content-center.nunito-sans-pt.border-grey.m-0.m-md-5
-       img(src="/img/meme/albo-hobbs-style.png", alt="The Boss", style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;")
-  .row.d-flex.justify-content-center.border-pink 
-      .col-3.d-flex.text-center.justify-content-center.mynerve-regular
-        p.fs-1 * * * * *
+  .container.border-blue.w-100.p-5
+   .row.d-flex.border-orange
+    .col-8.border-yellow 
+        .row.d-flex.border-purple
+          .col-12.d-flex.align-items-start.justify-content-start.border-pink(style="" )
+            h2='Advocacy'
+          .col-12.d-flex.align-items-start.justify-content-start.border-green(style="" )
+            h2='Humor'
+          .col-12.d-flex.align-items-start.justify-content-start.border-green(style="" )
+            h2='Strategy'
+    .col-4.d-flex.border-blue(style="height: 300px;")
