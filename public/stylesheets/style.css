@@ -2,6 +2,11 @@
 
 /* Custom Fonts */
 
+@media (min-width: 768px) {
+  .font-md-1 { font-size: 1.5rem;} /* match fs-1 */
+}
+
+
 .fs-3rem{
   font-size: 3.5rem;
 }
@@ -9,10 +14,7 @@
 .fc-pink{
   color: #e83e8c;
 }
-.fc-tape{
-  color: #fff;
-  background: #000;
-}
+
 /* Google Fonts */
 .mynerve-regular {
   font-family: "Mynerve", cursive;
@@ -97,8 +99,6 @@ button.navbar-toggler.d-md-none {
     height: auto !important;
   }
 }
-
-
 
 /* Custom Colours */
 

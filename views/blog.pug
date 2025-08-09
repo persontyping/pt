@@ -1,21 +1,40 @@
 extends layout
 
 block content
-  .container.p-0.p-md-5
-    table.table.responsive-table
-      each post in posts
-        - var title = post.title
-        - var text = post.excerpt || ''
-        - var imageUrl = post.imageUrl ? '/img/' + post.imageUrl : '/img/call-me.svg'
-        - var buttonUrl = '/blog/' + post._id 
-        - var buttonText = 'Read More'
-        - var createdAt = post.createdAt ? new Date(post.createdAt).toLocaleString() : ''
-        tr
-          td(style="vertical-align: middle; text-align: left;")
-            h5.mb-1.fc-tape= title
-            small.text-muted.mb-2 Published on #{createdAt}
-            p.mb-2= text
-          td(style="vertical-align: middle;")
-            img(src=imageUrl, alt=title, class="img-fluid" style="width: 100px; height: auto;")
-          td(style="vertical-align: middle; text-align: left;")
-            a.btn.btn-pink-outline(href=buttonUrl)= buttonText
+ .container.p-0.p-md-5.border-blue
+    each post in posts
+      - var title = post.title
+      - var text = post.excerpt || ''
+      - var imageUrl = post.imageUrl ? '/img/' + post.imageUrl : '/img/call-me.svg'
+      - var buttonUrl = '/blog/' + post._id 
+      - var buttonText = 'Read More'
+      - var createdAt = post.createdAt ? new Date(post.createdAt).toLocaleString() : ''
+   
+      .row.d-flex.justify-content-start.border-orange
+        .col-3.d-flex.align-items-center.justify-content-center.border-pink(style="min-height: 80px;" class="h-md-200")
+          img(src=imageUrl, alt=title, class="img-fluid" style="width: auto; height: auto;")
+        .col-9.d-flex.align-items-start.justify-content-start.border-red(style="min-height: 80px;" class="h-md-200")
+          .row.d-flex.align-items-center.justify-content-center
+            .col-12.p-3.w-100.d-flex.align-items-start.justify-content-start.nunito-sans-pt.border-pink
+                h2.mb-1= title
+            .row.border-aqua
+              .col-12.pt-3.d-flex.justify-content-center.text-center
+                  p.text-muted.mb-2.mynerve-regular Published on #{createdAt}
+            .row.border-pink.p-md-5
+              .col-12.d-flex.justify-content-start.nunito-sans-pt.font-md-1
+                p.mb-2= text     
+            .col-9.d-flex.align-items-end.nunito-sans-pt.text-center(style="height: 80px;" class="h-md-200")
+                a.btn.btn-pink-outline.w-100.py-3.m-1(href=buttonUrl)= buttonText
+
+              
+          
+        //- table.table.responsive-table
+        //-   tr
+        //-     td(style="vertical-align: middle;")
+        //-       img(src=imageUrl, alt=title, class="img-fluid" style="width: 100px; height: auto;")
+        //-     td(style="vertical-align: middle; text-align: left;")
+        //-       h5.mb-1.fc-tape= title
+        //-       small.text-muted.mb-2 Published on #{createdAt}
+        //-       p.mb-2= text
+        //-     td(style="vertical-align: middle; text-align: left;")
+        //-       a.btn.btn-pink-outline(href=buttonUrl)= buttonText
