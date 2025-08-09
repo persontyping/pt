@@ -6,10 +6,10 @@
   .font-md-1 { font-size: 1.5rem;} /* match fs-1 */
 }
 
-
-.fs-3rem{
-  font-size: 3.5rem;
+@media (min-width: 768px) {
+   .fs-md-3rem { font-size: 3.5rem;} /* match fs-1 */
 }
+
 
 .fc-pink{
   color: #e83e8c;
@@ -100,10 +100,10 @@ button.navbar-toggler.d-md-none {
   }
 }
 
-.dropdown-menu{
+/* .dropdown-menu{
   position: fixed;
   margin-right: 30px;
-}
+} */
 
 /* Custom Colours */
 
