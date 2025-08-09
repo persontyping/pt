@@ -1,38 +1,8 @@
 include insta-card.pug
 
-//- Instagram wrapper mixin
-//- Maps IG fields to card args based on your mapping:
-//- media_url      -> imageUrl
-//- caption        -> title
-//- hashtags       -> text
-//- mentions       -> text
-//- timestamp      -> text
-//- likes_count    -> text
-//- comments_count -> text
-//- permalink      -> buttonUrl
-mixin instaCard(post)
-  - var title     = (post && post.caption)   || 'Instagram Post';
-  - var imageUrl  = (post && post.media_url) || '/img/meme/seniors-cash.png';
-  - var buttonUrl = (post && post.permalink) || 'https://www.instagram.com/p/DMCYJt8TAOH/?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExcXFYc3ZIOE1WU1dZeHY2TQEeSu7Aoq_Drk3nw9sFJc2h9smhHf-3h1vmGOXTHdodL-7LJWeeOWITcIOkt1I_aem_9N6eOvgyuKLtsPEuroaXMQ';
-  //- You can uncomment and build textParts if needed
-  //- var textParts = [];
-  //- if (post && post.hashtags && post.hashtags.length)
-  //-   textParts.push('#' + post.hashtags.join(' #'));
-  //- if (post && post.mentions && post.mentions.length)
-  //-   textParts.push('Mentions: ' + post.mentions.join(', '));
-  //- if (post && post.timestamp)
-  //-   textParts.push('Posted: ' + new Date(post.timestamp).toLocaleString());
-  //- if (post && typeof post.likes_count === 'number')
-  //-   textParts.push('Likes: ' + post.likes_count);
-  //- if (post && typeof post.comments_count === 'number')
-  //-   textParts.push('Comments: ' + post.comments_count);
-  - var text = 'this is the text'; // or: textParts.join(' | ')
-
-  +card(title, text, imageUrl, buttonUrl)
-
 //- Gallery container
-.container.gallery
-  .row.gallery
+.container.gallery.border-pink
+  .row.gallery.border-yellow
     each insta in instaCards
-      .col.gallery.d-flex.justify-content-center
+      .col.gallery.d-flex.justify-content-center.border-orange
         +instaCard(insta)

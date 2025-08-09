@@ -1,8 +1,7 @@
 //- views/partials/insta-card.pug
-
 //- Mixins (must come first)
-mixin card(title, text, imageUrl, buttonUrl)
-  .card.mb-3.mt-3.pt-3.d-flex.align-items-center.justify-content-center.bg-tan(style="width: 22rem;")
+mixin card(title, text, imageUrl, buttonUrl, mentions, hashtags, postTime, likesCount, commentsCount)
+  .card.mb-3.mt-3.pt-3.d-flex.align-items-center.justify-content-center.border-green(style="width: 22rem;")
     if imageUrl
       img.card-img-top(src=imageUrl, alt=title)
     else
@@ -11,34 +10,40 @@ mixin card(title, text, imageUrl, buttonUrl)
         style="width: 300px; height: 300px; object-fit: contain;"
       )
     .card-body.text-center
+      if likesCount
+        p.text-light.card-title.border-orange= likesCount     
+      if commentsCount
+        p.text-light.card-title.border-orange= commentsCount   
       if title
-        h5.text-light.card-title= title
+        p.text-light.card-title.border-blue= title
+      if postTime 
+        p.text-light.card-text.border-yellow= postTime
       if text
-        p.text-light.card-text= text
+        p.text-light.card-text.border-purple= text
+      if mentions
+        p.text-light.card-text.border-green= mentions
+      if hashtags 
+        p.text-light.card-text.border-red= hashtags
       if buttonUrl
         a.btn.btn-pink-outline(href=buttonUrl target="_blank" rel="noopener") View on Instagram
 
 mixin instaCard(post)
-  - var title     = (post && post.caption)   || 'Instagram Post';
-  - var imageUrl  = (post && post.media_url) || '/img/call-me.svg';
-  - var buttonUrl = (post && post.permalink) || '';
+  - var title      = post?.caption || 'Instagram Post';
+  - var imageUrl   = post?.media_url || '/img/call-me.svg';
+  - var buttonUrl  = post?.permalink || '';
+  - var hashtags   = (post?.hashtags?.length) ? ('#' + post.hashtags.join(' #')) : '';
+  - var mentions   = (post?.mentions?.length) ? (' ' + post.mentions.join(' ')) : '';
+  - var postTime   = post?.timestamp ? new Date(post.timestamp).toLocaleString() : '';
+  - var likesCount = (typeof post?.likes_count === 'number') ? (' ' + post.likes_count) : '';
+  - var commentsCount = (typeof post?.comments_count === 'number') ? (' ' + post.comments_count) : '';
+
+
+
   - var textParts = [];
-  if post && post.hashtags && post.hashtags.length
-    - textParts.push('#' + post.hashtags.join(' #'));
-  if post && post.mentions && post.mentions.length
-    - textParts.push('Mentions: ' + post.mentions.join(', '));
-  if post && post.timestamp
-    - textParts.push('Posted: ' + new Date(post.timestamp).toLocaleString());
-  if post && typeof post.likes_count === 'number'
-    - textParts.push('Likes: ' + post.likes_count);
+
   if post && typeof post.comments_count === 'number'
     - textParts.push('Comments: ' + post.comments_count);
   - var text = textParts.join(' | ');
-  +card(title, text, imageUrl, buttonUrl)
+  +card(title, text, imageUrl, buttonUrl, mentions, hashtags, postTime, likesCount, commentsCount)
 
-//- Usage (after mixins are defined)
-.container.gallery
-  .row.gallery
-    each insta in instaCards
-      .col.gallery.d-flex.justify-content-center
-        +instaCard(insta)
+
