@@ -20,8 +20,11 @@ router.post('/', async (req, res) => {
     auth: {
       user: process.env.CONTACT_EMAIL,
       pass: process.env.CONTACT_PASS
-    }
+    },
+    logger: true,
+    debug: true,
   });
+  transporter.verify().then(() => console.log('SMTP OK')).catch(console.error);
 
   const mailOptions = {
     from: email,
