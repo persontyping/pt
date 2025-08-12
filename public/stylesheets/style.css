@@ -182,54 +182,6 @@ button.navbar-toggler.d-md-none {
   max-width: 300px;
 }
 
-/* Blog Page responsive table */
-
-/* Base styles: normal table behavior on larger screens */
-.responsive-table tr {
-  display: table-row;
-}
-.responsive-table td {
-  display: table-cell;
-  width: auto;
-}
-
-/* Responsive styles for screens smaller than 768px */
-@media (max-width: 767px) {
-  .responsive-table {
-    width: 100%;
-    display: block;
-  }
-
-  .responsive-table tr {
-    display: block;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    padding: 10px;
-  }
-
-  .responsive-table td {
-    display: block;
-    width: 100%;
-    text-align: left;
-    padding: 5px 0;
-  }
-
-  /* ✅ Center image and button on small screens */
-  .responsive-table td img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .responsive-table td a.btn {
-    display: block;
-    margin: 10px auto 0;
-    width: fit-content;
-    text-align: center;
-  }
-}
-
 /* Blog Post Styles */
 
 div.post-body h2 {
@@ -241,7 +193,7 @@ div.post-body ul {
 }
 
 div.post-body li::marker {
-  content: "📎 "; /* en dash or use "-" for a hyphen */
+  content: "📎 "; 
 }
 
 
