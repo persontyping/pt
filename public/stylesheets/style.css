@@ -98,7 +98,6 @@ button.navbar-toggler.d-md-none {
 }
 
 
-
 /* Custom Colours */
 
 .border-charcoal {
@@ -170,6 +169,12 @@ button.navbar-toggler.d-md-none {
 .btn-pink-outline:hover {
   background-color: #e83e8c;
   color: white;
+}
+
+.btn-blue-outline:hover {
+  border: 2px solid #0f34edff;
+  color: pink;
+  background-color: transparent;
 }
 
 /* Custom Width */
