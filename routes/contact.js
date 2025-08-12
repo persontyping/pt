@@ -16,11 +16,10 @@ router.post('/', async (req, res) => {
 
   // ⚠️ Replace these with environment variables in production
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: process.env.CONTACT_EMAIL,
-      pass: process.env.CONTACT_PASS
-    },
+    host: 'smtp.gmail.com',
+    port: 465,           // or 587 with secure:false
+    secure: true,        // true for 465, false for 587 (STARTTLS)
+    auth: { user: process.env.CONTACT_EMAIL, pass: process.env.CONTACT_PASS },
     logger: true,
     debug: true,
   });
