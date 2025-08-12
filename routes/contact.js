@@ -36,6 +36,12 @@ router.post('/', async (req, res) => {
     await transporter.sendMail(mailOptions);
     res.render('response', { message: 'Thanks for contacting us!' });
   } catch (err) {
+    console.error('Email failed:', {
+      code: err.code,
+      command: err.command,
+      responseCode: err.responseCode,
+      message: err.message,
+    });
     console.error('Email failed:', err);
     res.status(500).send('Something went wrong. Please try again later.');
   }
