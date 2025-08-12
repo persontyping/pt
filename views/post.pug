@@ -1,31 +1,30 @@
 extends layout
 
 block content
- .row.d-flex.justify-content-center.border-orange 
-  .col-md-9.text-start.px-2.py-5
-   article.post
-    h1.fs-3rem.text-center.text-md-start= post.title
+ .container.border-blue
+  .row.d-flex.justify-content-center.border-orange 
+    .col-md-9.text-start.px-2.py-5
+      article.post
+        h1.fs-3rem.text-center= post.title 
+        if post.createdAt 
+          p.text-muted.mb-2.mynerve-regular.fs-5.text-center Published on #{post.createdAt}
+        div.post-body.nunito-sans-pt.fs-5.lh-md.p-1.p-md-5.border-blue !{post.body}
 
-    if post.createdAt 
-      div.small.text-muted.fs-6.border-pink.p-2.my-3 Published on #{post.createdAt}
+        if post.imageUrl
+          img(
+            src='/img/' + post.imageUrl,
+            alt=post.title || 'Post image',
+            class="img-fluid",
+            style="max-width: 700px; max-height: 300px;"
+          )
+        else
+          img(
+            src="/img/call-me.svg",
+            alt=post.title || 'Placeholder image',
+            class="d-block mx-auto",
+            style="max-width: 300px; height: auto;"
+          )
 
-    div.post-body.nunito-sans-pt.fs-5.lh-md.p-4.border-blue !{post.body}
+        hr
 
-    if post.imageUrl
-      img(
-        src='/img/' + post.imageUrl,
-        alt=post.title || 'Post image',
-        class="img-fluid",
-        style="max-width: 700px; max-height: 300px;"
-      )
-    else
-      img(
-        src="/img/call-me.svg",
-        alt=post.title || 'Placeholder image',
-        class="d-block mx-auto",
-        style="max-width: 300px; height: auto;"
-      )
-
-    hr
-
-    a(href="/blog") ← Back to blog
+        a(href="/blog") ← Back to blog

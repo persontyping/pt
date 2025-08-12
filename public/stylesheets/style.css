@@ -33,11 +33,7 @@
     "YTLC" 500;
 }
 
-
-
 /* Custom Break Points */
-
-
 
 /* Nav Bar */
 button.navbar-toggler.d-md-none {
@@ -101,10 +97,7 @@ button.navbar-toggler.d-md-none {
   }
 }
 
-/* .dropdown-menu{
-  position: fixed;
-  margin-right: 30px;
-} */
+
 
 /* Custom Colours */
 
@@ -243,11 +236,13 @@ div.post-body h2 {
   padding: 3rem 0;
 }
 
-div.post-body li {
-  /* list-style-type: none; */
-  padding-left: 1.5em;
+div.post-body ul {
+  margin: 0 0 1rem 1rem; 
 }
 
+div.post-body li::marker {
+  content: "📎 "; /* en dash or use "-" for a hyphen */
+}
 
 
 /* Cards */
