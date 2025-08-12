@@ -3,13 +3,12 @@ extends layout
 block content
  .container.border-pink
   .row.d-flex.justify-content-center.border-blue 
-    .col-md-9.border-green
+    .col-12.col-md-9.border-green
       article.post
-        h1.fs-3rem.text-center= post.title 
+        h1.fs-md-3rem.fs-3rem.text-center= post.title 
         if post.createdAt 
           p.text-muted.mb-2.mynerve-regular.fs-5.text-center Published on #{post.createdAt}
-        div.post-body.nunito-sans-pt.fs-5.lh-md.p-1.p-md-5.border-orange !{post.body}
-    .col-md-9.d-flex.border-yellow.align-items-center.justify-content-center
+    .col-12.col-md-9.d-flex.border-yellow.align-items-center.justify-content-center
         if post.imageUrl
           img(
             src='/img/' + post.imageUrl,
@@ -24,5 +23,6 @@ block content
             class="d-block mx-auto",
             style="max-width: 300px; height: auto;"
           )
-    .col-md-9.border-aqua
+    .col-12.col-md-9.post-body.nunito-sans-pt.fs-5.lh-md.p-1.p-md-5.border-orange !{post.body}
+    .col-12.col-md-9.border-aqua
         a(href="/blog") ← Back to blog
