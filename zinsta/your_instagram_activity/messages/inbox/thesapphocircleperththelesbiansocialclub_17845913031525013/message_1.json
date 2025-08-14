@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "The Sappho Circle Perth (The Lesbian Social Club)"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752374688026,
+      "content": "\u00f0\u009f\u0098\u008d",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "The Sappho Circle Perth (The Lesbian Social Club)",
+  "is_still_participant": true,
+  "thread_path": "inbox/thesapphocircleperththelesbiansocialclub_17845913031525013",
+  "magic_words": [
+    
+  ]
+}

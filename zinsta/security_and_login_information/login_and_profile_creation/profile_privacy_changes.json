@@ -1,0 +1,30 @@
+{
+  "account_history_account_privacy_history": [
+    {
+      "title": "Switched to Public",
+      "media_map_data": {
+        
+      },
+      "string_map_data": {
+        "Time": {
+          "href": "",
+          "value": "",
+          "timestamp": 1751690719
+        }
+      }
+    },
+    {
+      "title": "Switched to Private",
+      "media_map_data": {
+        
+      },
+      "string_map_data": {
+        "Time": {
+          "href": "",
+          "value": "",
+          "timestamp": 1719144396
+        }
+      }
+    }
+  ]
+}

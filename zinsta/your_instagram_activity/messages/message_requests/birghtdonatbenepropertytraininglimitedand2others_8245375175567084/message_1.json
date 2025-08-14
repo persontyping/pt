@@ -1,0 +1,42 @@
+{
+  "participants": [
+    {
+      "name": "Birght Donat"
+    },
+    {
+      "name": "Bene"
+    },
+    {
+      "name": "Property Training Limited"
+    },
+    {
+      "name": "Bob\u00f0\u009f\u008e\u00b6"
+    },
+    {
+      "name": "Instagram User"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Instagram User",
+      "timestamp_ms": 1732804494150,
+      "content": "Hello, I am a third-party agency from the UK, specializing in improving the ranking and likes services for Booking+Airbnb hotel apps. The company is now recruiting freelancers worldwide. You only need a mobile phone to easily get it done, and the time and location are flexible. The daily salary is 100-300\u00e2\u0082\u00ac, and the monthly salary of formal employees is 3000-10000\u00e2\u0082\u00ac. Note (this article is not suitable for students under 22 years old. African and Indian students cannot receive wages due to remittance issues) For more details, please see the WhatsaPP link: https://bit.ly/3ZleoYF",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Birght Donat, Bene, Property Training Limited and 2 others",
+  "is_still_participant": true,
+  "thread_path": "message_requests/birghtdonatbenepropertytraininglimitedand2others_8245375175567084",
+  "magic_words": [
+    
+  ],
+  "joinable_mode": {
+    "mode": 1,
+    "link": ""
+  },
+  "is_pending": true
+}

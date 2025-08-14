@@ -1,0 +1,158 @@
+{
+  "participants": [
+    {
+      "name": "Green Street Dispensary"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752313548445,
+      "content": "We carry that one too",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008c",
+          "actor": "Lauren"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752313526903,
+      "content": "Okay, awesome. I used to have the Sundaze, green apple 10:10 and that was perfect for me. I could go slightly stronger. I\u00e2\u0080\u0099ll see what the doc says. Thanks for your help!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752313420205,
+      "content": "Most are hybrid. Entoura and Alfie do a Sativa. Also Humacology blue is for daytime use",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Lauren"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752313369233,
+      "content": "The one\u00e2\u0080\u0099s that don\u00e2\u0080\u0099t say night?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752313330717,
+      "content": "Do you know which ones are sativa?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752313282867,
+      "content": "How does that sound?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752313275782,
+      "content": "Edibles we mainly sell\nEntoura\nTHC 10mg      60pk $150 (mixed berry)\nCBG 10mg      CBD 10mg 60pk $120 (pineapple)\nCBN 10mg      THC 10mg 60pk $160 (apple)\nHumacology\nBlue THC      1mg CBD 80mg CBG 30mg for pain $155 60pk (strawberry)\nPink THC      1mg 112mg CBD 12mg CBN for sleep $164 60pk (raspberry)\nCannatrek\nBalanced      CBD 10mg THC 10mg $135 60pk\nNight      10mg THC $135 60pk\nStanley Brothers\nBalanced      THC 10mg CBD 10mg $89 30pk (raspberry)\nNight THC      20mg CBD 10mg $99 30pk (raspberry)\nCuro\nBalanced      THC 10mg CBD 10mg $69 30pk (green apple)\nTHC 10mg      $69 30pk (strawberry)\nSundaze\nBalanced      THC 10mg CBD 10mg $159 60pk\nTHC 10mg $159 60pk",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752313270578,
+      "content": "Not heard of scripted clinic. Here is a list of what we carry. Just make sure they are product agnostic and let you choose which pharmacy to pick it up from.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752313228611,
+      "content": "I\u00e2\u0080\u0099ve previously had a script with Alternaleaf. From experience, I\u00e2\u0080\u0099d have to be specific in what medication I was requesting (edited)",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752313200684,
+      "content": "I\u00e2\u0080\u0099ve previously had a script with Alternaleaf so pretty sure I\u00e2\u0080\u0099d have to be specific in what medication I was requesting",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752313152054,
+      "content": "I\u00e2\u0080\u0099ve made an appointment with Scripted Clinic for Tuesday next week. If I wanted to ask for a script for edibles what would you suggest I say?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752311287718,
+      "content": "We generally recommend the following options:\nIn Person or Telehealth\nVerde Clinic135 Dunedin St, Mount Hawthorn www.verdeclinic.com.au Verde Clinic135 Dunedin St, Mount Hawthorn www.verdeclinic.com.au Dr Ganesa Pon Raja currently charge $49 (on special July) per consult\nTelehealth only\nDr Hermanus Bosman $65 (July special) initial, $65 follow up\nhttps://bosmanclinic.snapforms.com.au/form/npf-green-st-disp\ne-Doctor www.e-doctor.au Drs Rebecca Lee, Jannice Choong and Melissa Lee $99 initial consult and $59 for follow ups.\nAll of these doctors are authorised and experienced medical cannabis prescribers",
+      "share": {
+        "link": "https://verdeclinic.com.au/",
+        "share_text": "Bulk-Billed Pop-Up Clinic In Plant Pharm Malaga 746 Marshall Road Malaga Saturday Mornings First Come First Served, $0, Future Appointments Medicare Rebateable"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752308075184,
+      "content": "I don\u00e2\u0080\u0099t currently have a script. Can you recommend GPs who do Telehealth?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Green Street Dispensary"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752307291128,
+      "content": "Do you have a script?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752307283650,
+      "content": "Green Street \u00f0\u009f\u008c\u00b1 Dispensary stock a massive range of flower, cart, oil, topical and edible products from all major suppliers. To access you will need a prescription from a  doctor - you can either get your own GP to prescribe or we can recommend someone with expertise in this area.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Green Street Dispensary",
+      "timestamp_ms": 1752307268386,
+      "content": "We sure do",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752307185545,
+      "content": "Hey,\nJust wondering if you guys have THC gummies?\nThanks,\nLauren",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Green Street Dispensary",
+  "is_still_participant": true,
+  "thread_path": "inbox/greenstreetdispensary_17893147794267622",
+  "magic_words": [
+    
+  ]
+}

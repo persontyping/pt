@@ -1,0 +1,39 @@
+{
+  "participants": [
+    {
+      "name": "Nicky Tsekouras"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Nicky Tsekouras",
+      "timestamp_ms": 1724839712290,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1724808585198,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Nicky Tsekouras",
+          "timestamp": 1724839712
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Nicky Tsekouras",
+  "is_still_participant": true,
+  "thread_path": "inbox/nickytsekouras_1511022843629521",
+  "magic_words": [
+    
+  ]
+}

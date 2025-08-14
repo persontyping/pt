@@ -1,0 +1,48 @@
+{
+  "participants": [
+    {
+      "name": "Erin Brown \u00f0\u009f\u008f\u00b3\u00ef\u00b8\u008f\u00e2\u0080\u008d\u00f0\u009f\u008c\u0088"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Erin Brown \u00f0\u009f\u008f\u00b3\u00ef\u00b8\u008f\u00e2\u0080\u008d\u00f0\u009f\u008c\u0088",
+      "timestamp_ms": 1752897012147,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752893676634,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Erin Brown \u00f0\u009f\u008f\u00b3\u00ef\u00b8\u008f\u00e2\u0080\u008d\u00f0\u009f\u008c\u0088"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752375171874,
+      "content": "\u00f0\u009f\u0098\u008d",
+      "share": {
+        "link": "https://instagram.com/stories/iamerinbrown/3254075752050420869"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Erin Brown \u00f0\u009f\u008f\u00b3\u00ef\u00b8\u008f\u00e2\u0080\u008d\u00f0\u009f\u008c\u0088",
+  "is_still_participant": true,
+  "thread_path": "inbox/erinbrown_1593778005342727",
+  "magic_words": [
+    
+  ]
+}

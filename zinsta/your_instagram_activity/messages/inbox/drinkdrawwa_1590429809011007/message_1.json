@@ -1,0 +1,32 @@
+{
+  "participants": [
+    {
+      "name": "Drink & Draw WA"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1751686410740,
+      "content": "This account can't receive your message because they don't allow new message requests from everyone.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1751686409106,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Drink & Draw WA",
+  "is_still_participant": true,
+  "thread_path": "inbox/drinkdrawwa_1590429809011007",
+  "magic_words": [
+    
+  ]
+}

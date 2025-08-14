@@ -1,0 +1,32 @@
+{
+  "participants": [
+    {
+      "name": "alexia's version"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1754924066966,
+      "content": "This account can't receive your message because they don't allow new message requests from everyone.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1754924065893,
+      "content": "\u00f0\u009f\u0098\u008d",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "alexia's version",
+  "is_still_participant": true,
+  "thread_path": "inbox/alexiasversion_17930942295086461",
+  "magic_words": [
+    
+  ]
+}

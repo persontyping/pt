@@ -1,0 +1,14 @@
+{
+  "devices_two_factor_authentication": [
+    {
+      "string_map_data": {
+        "Nickname": {
+          "value": "Original device"
+        },
+        "Device ID": {
+          "value": "6C480EDD-4F2C-419F-A059-3FC36036579D"
+        }
+      }
+    }
+  ]
+}

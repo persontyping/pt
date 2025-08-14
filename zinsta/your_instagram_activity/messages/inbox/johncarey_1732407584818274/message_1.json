@@ -1,0 +1,32 @@
+{
+  "participants": [
+    {
+      "name": "John Carey"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1754892390517,
+      "content": "This account can't receive your message because they don't allow new message requests from everyone.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1754892386927,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "John Carey",
+  "is_still_participant": true,
+  "thread_path": "inbox/johncarey_1732407584818274",
+  "magic_words": [
+    
+  ]
+}

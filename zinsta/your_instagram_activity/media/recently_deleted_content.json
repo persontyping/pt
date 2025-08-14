@@ -1,0 +1,69 @@
+{
+  "ig_recently_deleted_media": [
+    {
+      "media": [
+        {
+          "uri": "media/recently_deleted/202507/518805645_17927444169086461_7993535066880035478_n_18067555529514840.jpg",
+          "creation_timestamp": 1752297414,
+          "media_metadata": {
+            "photo_metadata": {
+              "exif_data": [
+                {
+                  "software": "Canva doc=DAGs7SvmN-A user=UAGRSe4kr7o brand=BAGRSYdc8wI template=Beige and Ivory Minimal Quote Instagram Post",
+                  "device_id": "6C480EDD-4F2C-419F-A059-3FC36036579D",
+                  "camera_position": "unknown",
+                  "source_type": "library"
+                }
+              ]
+            },
+            "camera_metadata": {
+              "has_camera_metadata": false
+            }
+          },
+          "title": "My picks. #hottest100 #triplej",
+          "cross_post_source": {
+            "source_app": "FB"
+          }
+        }
+      ]
+    },
+    {
+      "media": [
+        {
+          "uri": "media/recently_deleted/202408/456478809_17887530561086461_2555250144821150254_n_17988607790704942.jpg",
+          "creation_timestamp": 1724283110,
+          "media_metadata": {
+            "photo_metadata": {
+              "exif_data": [
+                {
+                  "iso": 640,
+                  "focal_length": "2.69",
+                  "lens_model": "iPhone 14 front camera 2.69mm f/1.9",
+                  "scene_capture_type": "standard",
+                  "software": "17.5.1",
+                  "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+                  "scene_type": 1,
+                  "camera_position": "front",
+                  "lens_make": "Apple",
+                  "date_time_digitized": "2024:08:03 20:39:29",
+                  "date_time_original": "2024:08:03 20:39:29",
+                  "source_type": "library",
+                  "aperture": "1.8519988384473913",
+                  "shutter_speed": "2.943438665788896",
+                  "metering_mode": "5"
+                }
+              ]
+            },
+            "camera_metadata": {
+              "has_camera_metadata": false
+            }
+          },
+          "title": "",
+          "cross_post_source": {
+            "source_app": "FB"
+          }
+        }
+      ]
+    }
+  ]
+}

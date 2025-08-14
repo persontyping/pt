@@ -1,0 +1,52 @@
+{
+  "participants": [
+    {
+      "name": "James Hillier"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "James Hillier",
+      "timestamp_ms": 1754005819868,
+      "content": "Oh thanks so much. What an epic disappointment eh \u00f0\u009f\u00a5\u00b2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "James Hillier",
+      "timestamp_ms": 1754005803165,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1753956077407,
+      "content": "I love your work Nordacious. Never thought I\u00e2\u0080\u0099d hear Penny say those words. I actually owned a Penny Wong t-shirt that you made years ago, can\u00e2\u0080\u0099t be wearing that for a while. \u00e2\u0098\u00b9\u00ef\u00b8\u008f",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "James Hillier"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "James Hillier",
+      "timestamp_ms": 1753955397137,
+      "content": "Thank you for sharing \u00f0\u009f\u0087\u00b5\u00f0\u009f\u0087\u00b8",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "James Hillier",
+  "is_still_participant": true,
+  "thread_path": "inbox/jameshillier_1584287479640544",
+  "magic_words": [
+    
+  ]
+}

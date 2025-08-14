@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Frankie\u00e2\u0080\u0099s Bar"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1736592873180,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Frankie\u00e2\u0080\u0099s Bar",
+  "is_still_participant": true,
+  "thread_path": "inbox/frankiesbar_17862339633320891",
+  "magic_words": [
+    
+  ]
+}

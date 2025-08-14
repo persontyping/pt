@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "perth queer readers"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1743656556913,
+      "content": "\u00f0\u009f\u0098\u008d",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "perth queer readers",
+  "is_still_participant": true,
+  "thread_path": "inbox/perthqueerreaders_17969164433677015",
+  "magic_words": [
+    
+  ]
+}

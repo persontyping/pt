@@ -1,0 +1,404 @@
+{
+  "ig_stories": [
+    {
+      "uri": "media/stories/202412/AQPLd78TwNmNhPD4rFsOzUsAsJgDESOTcGyhIhwUMVwK3HLjX_sFneEl2T23C8M1sQOKiuaZUFGYYVJKLXr5HFMD_18285362275175451.mp4",
+      "creation_timestamp": 1734101711,
+      "media_metadata": {
+        "video_metadata": {
+          "exif_data": [
+            {
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "camera_position": "unknown",
+              "source_type": "library"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": false
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      },
+      "dubbing_info": [
+        
+      ],
+      "media_variants": [
+        
+      ]
+    },
+    {
+      "uri": "media/stories/202409/AQN8VAhtdXKYAtN1xr5U_ml8dqh_E2KBCSp4LZBed3rvgvy_f_G6FypoHqNr2Z9W1IjkK2XtFRpDH66puZrzW_17867616741206591.mp4",
+      "creation_timestamp": 1726971973,
+      "media_metadata": {
+        "video_metadata": {
+          "exif_data": [
+            {
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "camera_position": "unknown",
+              "source_type": "library"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": false
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      },
+      "dubbing_info": [
+        
+      ],
+      "media_variants": [
+        
+      ]
+    },
+    {
+      "uri": "media/stories/202408/455748433_1421669868524931_1558218535853349015_n_18047416297879789.jpg",
+      "creation_timestamp": 1723792570,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 25,
+              "focal_length": "1.54",
+              "lens_model": "iPhone 11 Pro Max back triple camera 1.54mm f/2.4",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "back",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 13:38:58",
+              "date_time_original": "2024:08:16 13:38:58",
+              "source_type": "library",
+              "aperture": "2.5260688112781806",
+              "shutter_speed": "6.931216394440499",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/455916763_1491305038182448_4972057688753067864_n_18038190290045870.jpg",
+      "creation_timestamp": 1723792568,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 25,
+              "focal_length": "2.71",
+              "lens_model": "iPhone 11 Pro Max front camera 2.71mm f/2.2",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "front",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 12:40:49",
+              "date_time_original": "2024:08:16 12:40:49",
+              "source_type": "library",
+              "aperture": "2.2750070476914215",
+              "shutter_speed": "8.722115199383548",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/455906203_391727420611172_2617777033631114183_n_17936112173870692.jpg",
+      "creation_timestamp": 1723792569,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 25,
+              "focal_length": "2.71",
+              "lens_model": "iPhone 11 Pro Max front camera 2.71mm f/2.2",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "front",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 12:59:57",
+              "date_time_original": "2024:08:16 12:59:57",
+              "source_type": "library",
+              "aperture": "2.2750070476914215",
+              "shutter_speed": "10.509503801520609",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/455739184_1033605901707273_475159729257453851_n_18433121491064533.jpg",
+      "creation_timestamp": 1723792564,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 32,
+              "focal_length": "4.25",
+              "lens_model": "iPhone 11 Pro Max back triple camera 4.25mm f/1.8",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "back",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 10:47:29",
+              "date_time_original": "2024:08:16 10:47:29",
+              "source_type": "library",
+              "aperture": "1.6959938128383605",
+              "shutter_speed": "8.838811420982736",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/455738709_7937797449674457_4620207525596400532_n_18059156431722346.jpg",
+      "creation_timestamp": 1723792565,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 32,
+              "focal_length": "4.25",
+              "lens_model": "iPhone 11 Pro Max back triple camera 4.25mm f/1.8",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "back",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 11:32:10",
+              "date_time_original": "2024:08:16 11:32:10",
+              "source_type": "library",
+              "aperture": "1.6959938128383605",
+              "shutter_speed": "10.039784854435243",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/455841618_1287662589267234_3903076622296562882_n_18053398219759927.jpg",
+      "creation_timestamp": 1723792563,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 20,
+              "focal_length": "1.54",
+              "lens_model": "iPhone 11 Pro Max back triple camera 1.54mm f/2.4",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "back",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 10:06:05",
+              "date_time_original": "2024:08:16 10:06:05",
+              "source_type": "library",
+              "aperture": "2.5260688112781806",
+              "shutter_speed": "7.654862544099048",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/455754121_1019828382984982_6155669209192177326_n_18034811672489498.jpg",
+      "creation_timestamp": 1723792566,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 32,
+              "focal_length": "4.25",
+              "lens_model": "iPhone 11 Pro Max back triple camera 4.25mm f/1.8",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "back",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 11:32:12",
+              "date_time_original": "2024:08:16 11:32:12",
+              "source_type": "library",
+              "aperture": "1.6959938128383605",
+              "shutter_speed": "9.844105730272043",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/455814117_1412369642746462_184742808238568100_n_17932078901911504.jpg",
+      "creation_timestamp": 1723792567,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "iso": 20,
+              "focal_length": "1.54",
+              "lens_model": "iPhone 11 Pro Max back triple camera 1.54mm f/2.4",
+              "scene_capture_type": "standard",
+              "software": "17.6.1",
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "scene_type": 1,
+              "camera_position": "back",
+              "lens_make": "Apple",
+              "date_time_digitized": "2024:08:16 12:39:55",
+              "date_time_original": "2024:08:16 12:39:55",
+              "source_type": "library",
+              "aperture": "2.5260688112781806",
+              "shutter_speed": "9.419815917704385",
+              "metering_mode": "5"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": true
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202408/AQMZTVN7EuN5UGyjV36XZM0QBsXUobg4HmpM38BaYAMlfG1vAaKNxflyY8eYW_ThIM186wQi92fNxvy3kcnrmvc_18041828398817812.mp4",
+      "creation_timestamp": 1723354028,
+      "media_metadata": {
+        "video_metadata": {
+          "exif_data": [
+            {
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "camera_position": "unknown",
+              "source_type": "share_external"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": false
+        }
+      },
+      "title": "",
+      "cross_post_source": {
+        "source_app": "FB"
+      },
+      "dubbing_info": [
+        
+      ],
+      "media_variants": [
+        
+      ]
+    },
+    {
+      "uri": "media/stories/202407/449691544_1612061952920204_4570440874361228361_n_18021006737252707.jpg",
+      "creation_timestamp": 1720003254,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "camera_position": "unknown",
+              "source_type": "share_extension"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": false
+        }
+      },
+      "title": "New t-shirt",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    },
+    {
+      "uri": "media/stories/202407/449701676_1004287994468491_660521343203052726_n_17976526625592612.jpg",
+      "creation_timestamp": 1720002978,
+      "media_metadata": {
+        "photo_metadata": {
+          "exif_data": [
+            {
+              "device_id": "1F881F7A-4ECF-42EE-BE23-66B08D1D18E6",
+              "camera_position": "unknown",
+              "source_type": "feed_reshare"
+            }
+          ]
+        },
+        "camera_metadata": {
+          "has_camera_metadata": false
+        }
+      },
+      "title": "I can\u00e2\u0080\u0099t stop reading this book. Sorry house work. \u00f0\u009f\u0092\u0095",
+      "cross_post_source": {
+        "source_app": "FB"
+      }
+    }
+  ]
+}

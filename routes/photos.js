@@ -6,7 +6,7 @@ const InstaPost = require('../models/Insta'); // the schema we built
 router.get('/', async function(req, res, next) {
   try {
     // Fetch all posts to display (or limit if large)
-    const instaCards = await InstaPost.find().sort({ timestamp: -1 }).lean();
+    const instaCards = await InstaPost.find().sort({ timestamp: 1 }).lean();
 
     res.render('photos', { 
       title: 'TL;DR', 
@@ -18,3 +18,5 @@ router.get('/', async function(req, res, next) {
 });
 
 module.exports = router;
+
+

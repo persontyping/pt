@@ -1,0 +1,46 @@
+{
+  "participants": [
+    {
+      "name": "thequeerlitclub"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "thequeerlitclub",
+      "timestamp_ms": 1726213500739,
+      "content": "You should come down sometime! There's about six or seven of us that go regularly and the more the merrier \u00f0\u009f\u00a5\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "thequeerlitclub",
+      "timestamp_ms": 1726213202654,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1726212861442,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "thequeerlitclub",
+          "timestamp": 1726213202
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "thequeerlitclub",
+  "is_still_participant": true,
+  "thread_path": "inbox/thequeerlitclub_17890478274086461",
+  "magic_words": [
+    
+  ]
+}

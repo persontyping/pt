@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Jess Jonassen"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1718097512994,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Jess Jonassen",
+  "is_still_participant": true,
+  "thread_path": "inbox/jessjonassen_1319990412722828",
+  "magic_words": [
+    
+  ]
+}

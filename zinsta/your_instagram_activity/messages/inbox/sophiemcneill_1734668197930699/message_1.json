@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Sophie McNeill"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1749905363456,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Sophie McNeill",
+  "is_still_participant": true,
+  "thread_path": "inbox/sophiemcneill_1734668197930699",
+  "magic_words": [
+    
+  ]
+}

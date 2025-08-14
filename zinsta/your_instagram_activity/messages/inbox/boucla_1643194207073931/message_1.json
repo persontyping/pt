@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Boucla"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Boucla",
+      "timestamp_ms": 1743852955009,
+      "content": "Hey!\u00e2\u0098\u0095\u00e2\u009c\u00a8\nWelcome to Boucla\u00e2\u0080\u0094your go-to spot for Mediterranean-inspired treats, great coffee, and a cozy atmosphere! We\u00e2\u0080\u0099re so happy to have you here.\nAs a thank you, enjoy 10% off your next visit\u00e2\u0080\u0094just show this message when you order!\nCan\u00e2\u0080\u0099t wait to see you soon! \u00e2\u0098\u0080\u00ef\u00b8\u008f\n- The Boucla Team",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Boucla",
+  "is_still_participant": true,
+  "thread_path": "inbox/boucla_1643194207073931",
+  "magic_words": [
+    
+  ]
+}

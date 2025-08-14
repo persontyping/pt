@@ -1,0 +1,38 @@
+{
+  "participants": [
+    {
+      "name": "Aria Scarlett"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Aria Scarlett",
+      "timestamp_ms": 1751739584249,
+      "content": "Reacted \u00f0\u009f\u0092\u009c to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1751720870596,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0092\u009c",
+          "actor": "Aria Scarlett"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Aria Scarlett",
+  "is_still_participant": true,
+  "thread_path": "inbox/ariascarlett_1635354647853388",
+  "magic_words": [
+    
+  ]
+}

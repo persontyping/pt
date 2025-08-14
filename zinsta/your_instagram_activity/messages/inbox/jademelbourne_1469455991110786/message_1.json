@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Jade Melbourne"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1725771408480,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Jade Melbourne",
+  "is_still_participant": true,
+  "thread_path": "inbox/jademelbourne_1469455991110786",
+  "magic_words": [
+    
+  ]
+}

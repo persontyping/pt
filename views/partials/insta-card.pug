@@ -1,49 +1,67 @@
 //- views/partials/insta-card.pug
 //- Mixins (must come first)
-mixin card(title, text, imageUrl, buttonUrl, mentions, hashtags, postTime, likesCount, commentsCount)
+mixin card(title, text, mediaUrl, buttonUrl, mentions, hashtags, postTime, likesCount, commentsCount, isVideo)
   .card.mb-3.mt-3.pt-3.d-flex.align-items-center.justify-content-center.border-green(style="width: 22rem;")
-    if imageUrl
-      img.card-img-top(src=imageUrl, alt=title)
+    if mediaUrl
+      //- If you want to render <video> instead, swap this block based on isVideo
+      .position-relative.w-100
+        img.card-img-top(src=mediaUrl, alt=title, style="object-fit: cover; max-height: 320px;")
+        if isVideo
+          span.position-absolute.top-0.end-0.m-2.badge.rounded-pill.bg-dark Video
     else
       img.card-img-top(
-        src="", alt=title,
+        src="/img/call-me.svg", alt=title,
         style="width: 300px; height: 300px; object-fit: contain;"
       )
+
     .card-body.text-center
       if likesCount
-        p.text-light.card-title.border-orange= likesCount     
+        p.text-light.card-title.border-orange= likesCount
       if commentsCount
-        p.text-light.card-title.border-orange= commentsCount   
+        p.text-light.card-title.border-orange= commentsCount
       if title
         p.text-light.card-title.border-blue= title
-      if postTime 
+      if postTime
         p.text-light.card-text.border-yellow= postTime
       if text
         p.text-light.card-text.border-purple= text
       if mentions
         p.text-light.card-text.border-green= mentions
-      if hashtags 
+      if hashtags
         p.text-light.card-text.border-red= hashtags
       if buttonUrl
         a.btn.btn-pink-outline(href=buttonUrl target="_blank" rel="noopener") View on Instagram
 
+//- expects a full post doc in the new schema
 mixin instaCard(post)
-  - var title      = post?.caption || 'Instagram Post';
-  - var imageUrl   = post?.media_url || '/img/call-me.svg';
-  - var buttonUrl  = post?.permalink || '';
-  - var hashtags   = (post?.hashtags?.length) ? ('#' + post.hashtags.join(' #')) : '';
-  - var mentions   = (post?.mentions?.length) ? (' ' + post.mentions.join(' ')) : '';
-  - var postTime   = post?.timestamp ? new Date(post.timestamp).toLocaleString() : '';
-  - var likesCount = (typeof post?.likes_count === 'number') ? (' ' + post.likes_count) : '';
-  - var commentsCount = (typeof post?.comments_count === 'number') ? (' ' + post.comments_count) : '';
+  - var firstMedia   = (post && Array.isArray(post.media) && post.media.length) ? post.media[0] : null;
 
+  //- Title priority: post.title -> media.title -> fallback
+  - var title        = post?.title || firstMedia?.title || 'Instagram Post';
 
+  //- Image/video URL priority: media.media_url -> media.uri -> post.media_url -> fallback
+  - var mediaUrl     = firstMedia?.media_url || firstMedia?.uri || post?.media_url || '/img/call-me.svg';
 
-  - var textParts = [];
+  - var buttonUrl    = post?.permalink || '';
 
-  if post && typeof post.comments_count === 'number'
-    - textParts.push('Comments: ' + post.comments_count);
-  - var text = textParts.join(' | ');
-  +card(title, text, imageUrl, buttonUrl, mentions, hashtags, postTime, likesCount, commentsCount)
+  - var hashtags     = (post?.hashtags?.length) ? ('#' + post.hashtags.join(' #')) : '';
+  - var mentions     = (post?.mentions?.length) ? ('@' + post.mentions.join(' @')) : '';
 
+  //- Timestamp: prefer post.timestamp, else derive from post.creation_timestamp
+  - var _ts          = post?.timestamp ? new Date(post.timestamp) : (typeof post?.creation_timestamp === 'number' ? new Date(post.creation_timestamp * 1000) : null);
+  - var postTime     = _ts ? _ts.toLocaleString() : '';
 
+  - var likesCount   = (typeof post?.likes_count === 'number') ? ('Likes: ' + post.likes_count) : '';
+  - var commentsCount= (typeof post?.comments_count === 'number') ? ('Comments: ' + post.comments_count) : '';
+
+  //- Build small info line (e.g., cross-post source from first media)
+  - var textParts    = [];
+  - var sourceApp    = firstMedia?.cross_post_source?.source_app;
+  if sourceApp
+    - textParts.push('Source: ' + sourceApp);
+  - var text         = textParts.join(' | ');
+
+  //- Is it a video? (schema sets booleans, but also detect by extension just in case)
+  - var isVideo      = (firstMedia?.is_video === true) || (post?.is_video === true) || (typeof mediaUrl === 'string' && /\.(mp4|mov|m4v|webm)(\?|$)/i.test(mediaUrl));
+
+  +card(title, text, mediaUrl, buttonUrl, mentions, hashtags, postTime, likesCount, commentsCount, isVideo)

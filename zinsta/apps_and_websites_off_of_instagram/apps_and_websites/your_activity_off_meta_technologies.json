@@ -1,0 +1,539 @@
+{
+  "apps_and_websites_off_meta_activity": [
+    {
+      "name": "news.com.au",
+      "events": [
+        {
+          "id": 285633425101545,
+          "type": "PAGE_VIEW",
+          "timestamp": 1755065640
+        }
+      ]
+    },
+    {
+      "name": "bitwarden.com",
+      "events": [
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1755057660
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754878080
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754803140
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754799060
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754736000
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754719500
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754713380
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754669100
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754440620
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754384580
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754131680
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754115420
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754094780
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754043240
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1753671960
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1753541820
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1753508400
+        },
+        {
+          "id": 502237269168386,
+          "type": "PAGE_VIEW",
+          "timestamp": 1753456320
+        }
+      ]
+    },
+    {
+      "name": "MSWA Lotteries",
+      "events": [
+        {
+          "id": 657525749668809,
+          "type": "CUSTOM",
+          "timestamp": 1754888040
+        }
+      ]
+    },
+    {
+      "name": "mswalottery.com.au",
+      "events": [
+        {
+          "id": 657525749668809,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754887620
+        },
+        {
+          "id": 657525749668809,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754887380
+        }
+      ]
+    },
+    {
+      "name": "microsoft.com",
+      "events": [
+        {
+          "id": 1770559986549030,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754880780
+        }
+      ]
+    },
+    {
+      "name": "coles.com.au",
+      "events": [
+        {
+          "id": 646643002168390,
+          "type": "PURCHASE",
+          "timestamp": 1754879400
+        },
+        {
+          "id": 1997245410640137,
+          "type": "PURCHASE",
+          "timestamp": 1754879400
+        },
+        {
+          "id": 1997245410640137,
+          "type": "ADD_TO_CART",
+          "timestamp": 1754879340
+        },
+        {
+          "id": 646643002168390,
+          "type": "ADD_TO_CART",
+          "timestamp": 1754879280
+        },
+        {
+          "id": 646643002168390,
+          "type": "ADD_TO_CART",
+          "timestamp": 1754878440
+        },
+        {
+          "id": 1997245410640137,
+          "type": "ADD_TO_CART",
+          "timestamp": 1754878440
+        }
+      ]
+    },
+    {
+      "name": "ahm.com.au",
+      "events": [
+        {
+          "id": 548426861976155,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754756220
+        },
+        {
+          "id": 548426861976155,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754756040
+        }
+      ]
+    },
+    {
+      "name": "godaddy.com",
+      "events": [
+        {
+          "id": 284067518410183,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754749380
+        },
+        {
+          "id": 284067518410183,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754050140
+        },
+        {
+          "id": 284067518410183,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754049420
+        },
+        {
+          "id": 284067518410183,
+          "type": "LEAD",
+          "timestamp": 1753099620
+        }
+      ]
+    },
+    {
+      "name": "Cloudflare, Inc.",
+      "events": [
+        {
+          "id": 621936882201793,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754748960
+        },
+        {
+          "id": 621936882201793,
+          "type": "CUSTOM",
+          "timestamp": 1754050500
+        }
+      ]
+    },
+    {
+      "name": "Reddit Inc.",
+      "events": [
+        {
+          "id": 302601110338853,
+          "type": "CUSTOM",
+          "timestamp": 1754736720
+        },
+        {
+          "id": 302601110338853,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754732400
+        }
+      ]
+    },
+    {
+      "name": "adcreative.ai",
+      "events": [
+        {
+          "id": 1066749363827983,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754733120
+        }
+      ]
+    },
+    {
+      "name": "Artlist",
+      "events": [
+        {
+          "id": 1685270768361909,
+          "type": "COMPLETE_REGISTRATION",
+          "timestamp": 1754732820
+        }
+      ]
+    },
+    {
+      "name": "reddit.com",
+      "events": [
+        {
+          "id": 302601110338853,
+          "type": "CUSTOM",
+          "timestamp": 1754732640
+        }
+      ]
+    },
+    {
+      "name": "Canva",
+      "events": [
+        {
+          "id": 844585682227065,
+          "type": "CUSTOM",
+          "timestamp": 1754732400
+        },
+        {
+          "id": 844585682227065,
+          "type": "CUSTOM",
+          "timestamp": 1754685540
+        }
+      ]
+    },
+    {
+      "name": "canva.com",
+      "events": [
+        {
+          "id": 844585682227065,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754731860
+        },
+        {
+          "id": 844585682227065,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754731680
+        },
+        {
+          "id": 844585682227065,
+          "type": "COMPLETE_REGISTRATION",
+          "timestamp": 1754685480
+        }
+      ]
+    },
+    {
+      "name": "istockphoto.com",
+      "events": [
+        {
+          "id": 1598725237052889,
+          "type": "VIEW_CONTENT",
+          "timestamp": 1754725140
+        }
+      ]
+    },
+    {
+      "name": "classbento.com.au",
+      "events": [
+        {
+          "id": 233233327826545,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754724960
+        }
+      ]
+    },
+    {
+      "name": "anz.com",
+      "events": [
+        {
+          "id": 644681518944292,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754393760
+        }
+      ]
+    },
+    {
+      "name": "humanitix.com",
+      "events": [
+        {
+          "id": 1326445430836488,
+          "type": "VIEW_CONTENT",
+          "timestamp": 1754135520
+        }
+      ]
+    },
+    {
+      "name": "marblism.com",
+      "events": [
+        {
+          "id": 652087320684817,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754135160
+        }
+      ]
+    },
+    {
+      "name": "usemotion.com",
+      "events": [
+        {
+          "id": 775233116365467,
+          "type": "CUSTOM",
+          "timestamp": 1754135160
+        }
+      ]
+    },
+    {
+      "name": "akiflow.com",
+      "events": [
+        {
+          "id": 234716087796084,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754135100
+        },
+        {
+          "id": 234716087796084,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754135040
+        }
+      ]
+    },
+    {
+      "name": "forbes.com",
+      "events": [
+        {
+          "id": 725887277840809,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754134920
+        }
+      ]
+    },
+    {
+      "name": "optus.com.au",
+      "events": [
+        {
+          "id": 756021134769194,
+          "type": "PAGE_VIEW",
+          "timestamp": 1754044500
+        }
+      ]
+    },
+    {
+      "name": "rockingham.wa.gov.au",
+      "events": [
+        {
+          "id": 206791203760486,
+          "type": "PAGE_VIEW",
+          "timestamp": 1753873140
+        }
+      ]
+    },
+    {
+      "name": "onetag-sys.com",
+      "events": [
+        {
+          "id": 803720670843241,
+          "type": "PAGE_VIEW",
+          "timestamp": 1753114200
+        },
+        {
+          "id": 803720670843241,
+          "type": "PAGE_VIEW",
+          "timestamp": 1753104120
+        }
+      ]
+    },
+    {
+      "name": "etsy.com",
+      "events": [
+        {
+          "id": 297472060462208,
+          "type": "ADD_TO_CART",
+          "timestamp": 1753100220
+        }
+      ]
+    },
+    {
+      "name": "mongodb.com",
+      "events": [
+        {
+          "id": 1704057423217375,
+          "type": "PAGE_VIEW",
+          "timestamp": 1752504720
+        }
+      ]
+    },
+    {
+      "name": "HelloFresh",
+      "events": [
+        {
+          "id": 1630522587196530,
+          "type": "PAGE_VIEW",
+          "timestamp": 1751500620
+        },
+        {
+          "id": 3183004975314551,
+          "type": "PAGE_VIEW",
+          "timestamp": 1751500620
+        }
+      ]
+    },
+    {
+      "name": "H&M Business Manager",
+      "events": [
+        {
+          "id": 230562670650431,
+          "type": "VIEW_CONTENT",
+          "timestamp": 1750734720
+        },
+        {
+          "id": 230562670650431,
+          "type": "ADD_TO_CART",
+          "timestamp": 1750720320
+        },
+        {
+          "id": 230562670650431,
+          "type": "VIEW_CONTENT",
+          "timestamp": 1748971980
+        }
+      ]
+    },
+    {
+      "name": "Accent Group",
+      "events": [
+        {
+          "id": 368592134002298,
+          "type": "INITIATE_CHECKOUT",
+          "timestamp": 1750231440
+        }
+      ]
+    },
+    {
+      "name": "cosmopolitan.com",
+      "events": [
+        {
+          "id": 690796760981964,
+          "type": "PAGE_VIEW",
+          "timestamp": 1748949840
+        }
+      ]
+    },
+    {
+      "name": "Good Pair Days",
+      "events": [
+        {
+          "id": 680319915407306,
+          "type": "CUSTOM",
+          "timestamp": 1745348580
+        }
+      ]
+    },
+    {
+      "name": "frank green",
+      "events": [
+        {
+          "id": 359336567766166,
+          "type": "ADD_PAYMENT_INFO",
+          "timestamp": 1737436740
+        }
+      ]
+    },
+    {
+      "name": "Quiz Planet \u00ef\u00bd\u00a5",
+      "events": [
+        {
+          "id": 843754115785933,
+          "type": "TOSIMPRESSION",
+          "timestamp": 1691998500
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "participants": [
+    {
+      "name": "Meta AI"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Meta AI",
+      "timestamp_ms": 1737068223620,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Meta AI",
+      "timestamp_ms": 1737068219958,
+      "content": "Here's what I found on Instagram.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1737068219410,
+      "content": "andy riddington",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Meta AI",
+      "timestamp_ms": 1734392001575,
+      "content": "My name is Meta AI. Think of me like an assistant who's here to help you learn, plan and connect. What can I help you with today?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Meta AI",
+  "is_still_participant": true,
+  "thread_path": "inbox/metaai_981978443520731",
+  "magic_words": [
+    
+  ]
+}

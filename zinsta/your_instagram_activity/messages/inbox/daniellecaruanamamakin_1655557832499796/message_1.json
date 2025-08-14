@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Danielle Caruana (Mama Kin)"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1751721142016,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Danielle Caruana (Mama Kin)",
+  "is_still_participant": true,
+  "thread_path": "inbox/daniellecaruanamamakin_1655557832499796",
+  "magic_words": [
+    
+  ]
+}

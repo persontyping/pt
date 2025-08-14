@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Sally McManus"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1726024597862,
+      "content": "\u00f0\u009f\u0098\u008d",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Sally McManus",
+  "is_still_participant": true,
+  "thread_path": "inbox/sallymcmanus_1494203051981145",
+  "magic_words": [
+    
+  ]
+}

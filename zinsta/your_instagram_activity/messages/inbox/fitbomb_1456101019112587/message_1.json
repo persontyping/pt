@@ -1,0 +1,50 @@
+{
+  "participants": [
+    {
+      "name": "Fit Bomb"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Fit Bomb",
+      "timestamp_ms": 1736248997564,
+      "content": "https://app.glofox.com/portal/#/branch/6079a4ad12c0f4483261a560/memberships/60dbbc95217bfe46db7ebe69/plan/1625013294185/buy\n\nTry this!",
+      "share": {
+        "link": "https://app.glofox.com/portal/#/branch/6079a4ad12c0f4483261a560/memberships/60dbbc95217bfe46db7ebe69/plan/1625013294185/buy",
+        "share_text": "https://app.glofox.com/portal/#/branch/6079a4ad12c0f4483261a560/memberships/60dbbc95217bfe46db7ebe69/plan/1625013294185/buy\n\nTry this!"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1736200425613,
+      "content": "Just tried to access but the link is broken. \u00f0\u009f\u0098\u0094",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1732614282125,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1730198805481,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Fit Bomb",
+  "is_still_participant": true,
+  "thread_path": "inbox/fitbomb_1456101019112587",
+  "magic_words": [
+    
+  ]
+}

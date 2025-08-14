@@ -1,0 +1,147 @@
+{
+  "participants": [
+    {
+      "name": "Jody Leanne"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1754827640375,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jody Leanne",
+      "timestamp_ms": 1754391312196,
+      "content": "So good right!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Lauren"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1754192377651,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1753956622243,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1753417684565,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752848114462,
+      "content": "\u00f0\u009f\u0098\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jody Leanne",
+      "timestamp_ms": 1752411896369,
+      "content": "Scary stuff hey. But hope and connection will win, it has to. \n\nVery much looking forward to connecting with you Tuesday!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jody Leanne",
+      "timestamp_ms": 1752411819439,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752411803793,
+      "content": "\u00f0\u009f\u0098\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752411757795,
+      "content": "\u00f0\u009f\u0098\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752411732663,
+      "content": "Good night. Looking forward to meeting you on Tuesday. \u00f0\u009f\u0099\u0083",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jody Leanne"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jody Leanne",
+      "timestamp_ms": 1752411517776,
+      "content": "Haha yes I saw the reversing one. I am bad at all forms of parking so cannot relate \u00f0\u009f\u0098\u0082",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752411469145,
+      "content": "Haha. Absolutely not. I actually wanted to share one she did about Erin Patterson (the mushroom lady) but thought it might be a bit bad taste. Was way funnier though. Can\u00e2\u0080\u0099t remember if shared the parallel parking one? Honestly that feels more gay imo than the date one. (edited)",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1752411440880,
+      "content": "Haha. Absolutely not. I actually wanted to share one she did about Erin Patterson (the mushroom lady) but thought it might be a bit bad taste. Was way funnier though. Can\u00e2\u0080\u0099t remember if shared the parallel parking one? Honestly that feels more gay imo.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jody Leanne",
+      "timestamp_ms": 1752411067693,
+      "content": "Ok that is epic",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Lauren"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jody Leanne",
+      "timestamp_ms": 1752411058119,
+      "content": "Is this my education ready for Tuesday \u00f0\u009f\u0098\u0082",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Jody Leanne",
+  "is_still_participant": true,
+  "thread_path": "inbox/jodyleanne_1767466617986855",
+  "magic_words": [
+    
+  ]
+}

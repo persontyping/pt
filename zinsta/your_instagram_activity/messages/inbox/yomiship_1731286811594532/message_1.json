@@ -1,0 +1,32 @@
+{
+  "participants": [
+    {
+      "name": "Yomi Ship"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1751685887252,
+      "content": "This account can't receive your message because they don't allow new message requests from everyone.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1751685883959,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Yomi Ship",
+  "is_still_participant": true,
+  "thread_path": "inbox/yomiship_1731286811594532",
+  "magic_words": [
+    
+  ]
+}

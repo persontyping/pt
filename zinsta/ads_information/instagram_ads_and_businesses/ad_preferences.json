@@ -1,0 +1,92 @@
+{
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "label": "Removed categories",
+      "vec": [
+        
+      ]
+    },
+    {
+      "dict": [
+        {
+          "dict": [
+            {
+              "label": "Event",
+              "value": "Hide an Ad"
+            },
+            {
+              "label": "Ad title",
+              "value": "BUMBLE-MetaLifestyleImageStaticsLOCQ12025-USENG-Couple3-01_Group_1"
+            },
+            {
+              "label": "Creation time",
+              "timestamp_value": 1754222212
+            }
+          ],
+          "title": ""
+        },
+        {
+          "dict": [
+            {
+              "label": "Event",
+              "value": "Hide an Ad"
+            },
+            {
+              "label": "Ad title",
+              "value": "2"
+            },
+            {
+              "label": "Creation time",
+              "timestamp_value": 1744264576
+            }
+          ],
+          "title": ""
+        },
+        {
+          "dict": [
+            {
+              "label": "Event",
+              "value": "Hide an Ad"
+            },
+            {
+              "label": "Ad title",
+              "value": "Hated You B"
+            },
+            {
+              "label": "Creation time",
+              "timestamp_value": 1744264576
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "title": "Hidden ads"
+    },
+    {
+      "dict": [
+        {
+          "dict": [
+            {
+              "label": "Event",
+              "value": "Hide an Ad"
+            },
+            {
+              "label": "Advertiser",
+              "value": "Bumble"
+            },
+            {
+              "label": "Creation time",
+              "timestamp_value": 1754222212
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "title": "Hidden advertisers"
+    }
+  ],
+  "fbid": "17849121537086461"
+}

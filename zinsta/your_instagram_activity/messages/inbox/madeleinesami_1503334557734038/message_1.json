@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Madeleine Sami"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1723194894418,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Madeleine Sami",
+  "is_still_participant": true,
+  "thread_path": "inbox/madeleinesami_1503334557734038",
+  "magic_words": [
+    
+  ]
+}

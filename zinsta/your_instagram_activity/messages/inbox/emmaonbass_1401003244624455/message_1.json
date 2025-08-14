@@ -1,0 +1,25 @@
+{
+  "participants": [
+    {
+      "name": "Emma on bass"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1720783574440,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Emma on bass",
+  "is_still_participant": true,
+  "thread_path": "inbox/emmaonbass_1401003244624455",
+  "magic_words": [
+    
+  ]
+}

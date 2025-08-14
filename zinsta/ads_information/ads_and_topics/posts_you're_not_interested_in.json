@@ -1,0 +1,37 @@
+{
+  "impressions_history_posts_not_interested": [
+    {
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/reel/C82ITftthKa/",
+          "value": "\u00f0\u009f\u0091\u008e"
+        },
+        {
+          "timestamp": 1723679098
+        }
+      ]
+    },
+    {
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/reel/C8kPuc7IwfS/",
+          "value": "\u00f0\u009f\u0091\u008e"
+        },
+        {
+          "timestamp": 1719451560
+        }
+      ]
+    },
+    {
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/reel/C5yPKIuNb70/",
+          "value": "\u00f0\u009f\u0091\u008e"
+        },
+        {
+          "timestamp": 1718228638
+        }
+      ]
+    }
+  ]
+}

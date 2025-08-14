@@ -1,0 +1,39 @@
+{
+  "participants": [
+    {
+      "name": "dylin hardcastle"
+    },
+    {
+      "name": "Lauren"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "dylin hardcastle",
+      "timestamp_ms": 1720839519610,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lauren",
+      "timestamp_ms": 1720788546436,
+      "content": "\u00f0\u009f\u0091\u008f",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "dylin hardcastle",
+          "timestamp": 1720839519
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "dylin hardcastle",
+  "is_still_participant": true,
+  "thread_path": "inbox/dylinhardcastle_1422263009165073",
+  "magic_words": [
+    
+  ]
+}
