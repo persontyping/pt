@@ -54,12 +54,6 @@ mixin instaCard(post)
   - var likesCount   = (typeof post?.likes_count === 'number') ? ('Likes: ' + post.likes_count) : '';
   - var commentsCount= (typeof post?.comments_count === 'number') ? ('Comments: ' + post.comments_count) : '';
 
-  //- Build small info line (e.g., cross-post source from first media)
-  - var textParts    = [];
-  - var sourceApp    = firstMedia?.cross_post_source?.source_app;
-  if sourceApp
-    - textParts.push('Source: ' + sourceApp);
-  - var text         = textParts.join(' | ');
 
   //- Is it a video? (schema sets booleans, but also detect by extension just in case)
   - var isVideo      = (firstMedia?.is_video === true) || (post?.is_video === true) || (typeof mediaUrl === 'string' && /\.(mp4|mov|m4v|webm)(\?|$)/i.test(mediaUrl));
