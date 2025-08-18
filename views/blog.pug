@@ -11,7 +11,7 @@ block content
       - var buttonText = 'Read More'
       - var createdAt = post.createdAt ? new Date(post.createdAt).toLocaleString() : ''
    
-      .row.d-flex.flex-md-row-reverse.justify-content-center.border-purple.w-md-75
+      .row.d-flexflex-column.flex-md-row-reverse.justify-content-center.border-purple.w-md-75
         .col-md-9.col-12.d-flex.align-items-start.justify-content-start.border-red(style="min-height: 80px;" )
           .row.d-flex.align-items-center.justify-content-center
             .col-12.py-2.px-3.w-100.d-flex.text-center.text-md-start.nunito-sans-pt.border-pink
@@ -24,20 +24,9 @@ block content
                 p.mb-2 #[b &ldquo;] #{excerpt} #[b &rdquo;]
         .col-6.col-md-3.d-flex.text-center.align-items-center.justify-content-center.border-yellow
           img(src=imageUrl, alt=title, class="d-block mx-auto" style="width: 100%")  
-        .col-12.d-flex.align-items-end.justify-content-center.nunito-sans-pt.text-center.border-green
+        .col-12.d-flex.align-items-end.justify-content-center.nunito-sans-pt.text-center.border-aqua
             a.btn.btn-pink-outline.w-100.py-2.m-3.fs-5(href=buttonUrl)= buttonText
-      .row.w-md-25.border-green(style="height: 100%")
+      .row.w-md-25.border-green.d-flex.flex-column(style="height: 100%")
         p Advertising Content
 
               
-          
-        //- table.table.responsive-table
-        //-   tr
-        //-     td(style="vertical-align: middle;")
-        //-       img(src=imageUrl, alt=title, class="img-fluid" style="width: 100px; height: auto;")
-        //-     td(style="vertical-align: middle; text-align: left;")
-        //-       h5.mb-1.fc-tape= title
-        //-       small.text-muted.mb-2 Published on #{createdAt}
-        //-       p.mb-2= text
-        //-     td(style="vertical-align: middle; text-align: left;")
-        //-       a.btn.btn-pink-outline(href=buttonUrl)= buttonText
